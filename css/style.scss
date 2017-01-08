@@ -1,0 +1,820 @@
+
+html {
+    font-size: 12px;
+}
+body{
+    li{
+        list-style-type: none;
+    }
+    a{
+        text-decoration: blink;
+    }
+    .row{
+        padding-left: 0;
+    }
+}
+.title-plus{
+    font:2rem/2.063rem Montserrat;
+    text-transform: uppercase;
+    color: #343a3b;
+    font-weight: 700;
+    margin-bottom: 33px;
+    .small-title{
+        color: #898e8f;
+        font-size: 0.876rem;
+        font-weight: 400;
+        display: block;
+    }
+}
+#header{
+    .section-contact-top{
+        background-color: #262829;
+        .list-contact-top{
+            text-align: right;
+            color: transparent;
+            font: 400 0.75rem/2.25rem Montserrat;
+            line-height: 36px;
+            text-transform: uppercase;
+            margin-bottom: 0;
+            dt,dd {
+                display: inline-block;
+            }
+            dt{
+                color: #ffffff;
+                margin-left: 60px;
+
+            }
+            dd{
+                a{
+                    color: #a2a5a6;
+                }
+            }
+        }
+    }
+}
+.navbar-plus{
+    margin-top: 20px;
+    .brand-plus{
+        h1{
+            margin: 0;
+        }
+    }
+    .btn-collapsed-plus {
+        border: 1px solid #000000;
+        border-radius: 10px;
+        span{
+            border: 1px solid #55bd77;
+        }
+    }
+    .nav-plus{
+        .li-nav-plus{
+            font:400 0.875rem/1.875rem Montserrat;
+            text-transform: uppercase;
+            color: transparent;
+            a{
+                color: #4e4e4e;
+            }
+            .active{
+                color: #ffac55;
+            }
+        }
+    }
+}
+.section-welcome{
+    padding-left: 0;
+    padding-right: 0;
+    .left-arrow-plus{
+        left: 0;
+        .glyphicon {
+            left: 10px;
+        }
+    }
+    .right-arrow-plus{
+        right: 0;
+        .glyphicon {
+            right: 10px;
+        }
+    }
+    .left-arrow-plus, .right-arrow-plus {
+        width: 5%;
+        .glyphicon {
+            &:before {
+                background-color: #262829;
+                padding: 45px 0;
+            }
+        }
+    }
+
+    .carousel-plus{
+        .item-plus{
+            overflow: hidden;
+            background: url("../images/image-carusel.png") no-repeat;
+            background-size: cover;
+            background-position: 60%;
+        }
+    }
+}
+.carousel-static-plus {
+    bottom: 0;
+    padding: 20% 7% 0;
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .title-welcome-plus{
+        color: white;
+        text-transform: uppercase;
+        font:300 1.875rem/2.25rem Lato;
+        background-color: #ffac56;
+        margin-bottom: 0;
+        margin-right: -15px;
+        margin-left: -15px;
+        padding: 35px 10px;
+        border-left: 1px solid transparent;
+        border-right: 1px solid transparent;
+        .small-title-welcome{
+            font:400 0.875rem Montserrat;
+            display: block;
+        }
+    }
+    ul {
+        margin-bottom: 0;
+    }
+    .btn-welcome{
+        background: #03b6e7;
+        padding: 30px 15px;
+        border: 1px solid #00a6d3;
+    }
+    .active {
+        background: #00a6d3;
+    }
+    .arrow {
+        &:before {
+            content: url('../images/arrow.png');
+        }
+    }
+    .linc-welcome{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        font: 400 0.875rem/1.875rem Montserrat;
+        text-transform: uppercase;
+        text-align: center;
+        text-decoration: none;
+
+    }
+
+    .btn-item-education{
+        &:before {
+            height: 30px;
+            content: url("../images/icon-education.png");
+            display: block;
+        }
+    }
+    .btn-item-business{
+        &:before {
+            height: 30px;
+            content: url("../images/icon-business.png");
+            display: block;
+        }
+    }
+    .btn-item-technology{
+        &:before {
+            height: 30px;
+            content: url("../images/icon-technology.png");
+            display: block;
+        }
+    }
+    .btn-item-real{
+        &:before {
+            height: 30px;
+            content: url("../images/icon-real-estate.png");
+            display: block;
+        }
+    }
+    .btn-item-banking{
+        &:before {
+            height: 30px;
+            content: url("../images/icon-banking.png");
+            display: block;
+        }
+    }
+    .btn-item-more {
+        padding: 35px 15px;
+        .btn-green {
+            display: block;
+            background-color: #16d428;
+            padding: 15px 8px;
+            border-radius: 25px;
+            text-align: center;
+        }
+    }
+}
+.section-about{
+    text-align: right;
+    margin: 15px auto;
+    .img-top{
+        margin: -80px auto;
+    }
+    .img-business {
+        width: 100%;
+        height: auto;
+    }
+    .btn-about{
+        text-align: center;
+        padding-bottom: 15px;
+        .link-btn-about{
+            color: white;
+            font:400 0.813rem/1.875rem Montserrat;
+            text-transform: uppercase;
+            background-color: #16d428;
+            border-radius: 30px;
+            padding: 8px 14px;
+        }
+    }
+
+    .text-about{
+        color: #838b8c;
+        font:400 0.938rem/1.75rem Domine;
+        margin-bottom: 16px;
+    }
+}
+.section-steps{
+    background: #e7eff1;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    .industry{
+        padding-left: 55px;
+         &:before{
+             content: url("../images/icon-choose-industary.png");
+             margin-bottom: 35px;
+             display: block;
+         }
+    }
+    .your-service{
+        padding-left: 55px;
+        &:before{
+            content: url("../images/icon-choose-service.png");
+            margin-bottom: 35px;
+            display: block;
+        }
+    }
+    .your-business{
+        padding-left: 55px;
+        &:before{
+            content: url("../images/icon-boost-your-business.png");
+           top: -50px;
+            margin-bottom: 20px;
+            display: block;
+        }
+    }
+    .text-steps{
+        color: #838b8c;
+        font:400 0.938rem/1.75rem Domine;
+    }
+    .title-steps{
+        color: #343a3b;
+        font:1.125rem/2.063rem Montserrat;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+        .green-title-steps{
+            color: #16d428;
+            font:400 1.25rem/1.875rem Montserrat;
+            text-transform: uppercase;
+            display: block;
+        }
+    }
+}
+.section-projects{
+    margin: 35px auto;
+    .read-more {
+        margin-top: 10px;
+        margin-bottom: 55px;
+    }
+    .btn-projects{
+        color: white;
+        font:400 0.813rem/1.875rem Montserrat;
+        text-transform: uppercase;
+        background-color: #16d428;
+        padding: 17px 29px;
+        border-radius: 30px;
+
+    }
+    li{
+
+        padding: 15px;
+        display: block;
+        img {
+            width: 100%;
+        }
+        .glyphicon-footer {
+            position: absolute;
+            bottom: 20px;
+            left: 25px;
+
+            color: white;
+            span {
+                z-index: 3000;
+            }
+        }
+        &:after{
+            position: absolute;
+            bottom: 15px;
+            content: '';
+            border-bottom: 56px solid #03b6e7;
+            border-right: 56px solid transparent;
+        }
+        .hover-project{
+            display: none;
+            position: absolute;
+            background-color: #ffac56;
+            opacity: 0.9;
+            top:15px;
+            left: 15px;
+            right: 15px;
+            bottom: 15px;
+            text-align: center;
+            z-index: 2000;
+        }
+        &:hover{
+            .hover-project{
+                display: block;
+                .title-hover{
+                    color: white;
+                    font:700 1.125rem/2.063rem Montserrat;
+                    text-transform: uppercase;
+                }
+                .text-hover{
+                    color: #fffdfa;
+                    font: 400 0.938rem/1.375rem Domine;
+                    margin: 13px 18px 44px 18px;
+                }
+            }
+        }
+    }
+}
+.section-clients{
+    background-color: #03b6e7;
+    color: #ddf8ff;
+    padding: 25px 0;
+    .carousel-indicators-clients{
+        width: 5%;
+        margin: 0;
+        padding: 0;
+        right: 0;
+        left: auto;
+    }
+    .title-clients{
+        margin-top: 0;
+        color: #ffffff;
+        .small-title{
+            color: #a6ecff;
+        }
+    }
+    .text-clients {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font: 400 0.938rem/1.75rem Domine;
+        margin-bottom: 47px;
+        margin-top: 57px;
+        &:before{
+            content: "\201C";
+            font-size: 9rem;
+        }
+        &:after{
+            content: "\201D";
+            font-size: 9rem;
+
+        }
+    }
+    .list-clients{
+        li{
+            overflow: hidden;
+            padding-top: 47px;
+            .photo-clients{
+                float: left;
+                border-radius: 50%;
+            }
+            h4{
+                font:400 0.938rem/1.75rem Domine;
+                margin-left: 105px;
+                .title-fff{
+                    color: white;
+                    font:700 0.875rem/2.063rem Montserrat;
+                    text-transform: uppercase;
+                    display: block;
+                }
+            }
+        }
+    }
+}
+.section-blog{
+    background: #e7eff1;
+    .section-blog-left{
+        padding-top: 25px;
+        .small-title {
+            text-transform: uppercase;
+        }
+        article{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            .date{
+                color: #343a3b;
+                font:400 0.938rem/1.75rem Domine;
+            }
+            .title-article{
+                color: #343a3b;
+                font:700 1.125rem/2.063rem Montserrat;
+                text-transform: uppercase;
+                margin: 0;
+                line-height: 33px;
+            }
+            .text-article{
+                color: #838b8c;
+                font:400 0.938rem/1.75rem Domine;
+                //margin-bottom: 69px;
+            }
+        }
+        .btn-right-blog,
+        .btn-left-blog{
+            color: #606668;
+            font:400 0.75rem/2.063rem Montserrat;
+            text-transform: uppercase;
+            border-radius: 30px;
+        }
+        .btn-right-blog{
+            border: 2px solid #989fa0;
+            padding: 12px 21px;
+            //margin-left: 10px;
+        }
+        .btn-left-blog{
+            border: 2px solid #ffac56;
+            padding: 12px 38px;
+            //margin-left: 66px;
+        }
+    }
+    .section-blog-right{
+        min-height: 260px;
+        background: url("../images/bg-foto.png") no-repeat;
+        background-size: 100%;
+    }
+
+}
+.section-contact{
+    //margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    .list-contact{
+        padding-left: 0;
+        li {
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+        .contact-item {
+            border:1px solid #e1eaec;
+            padding: 35px 15px;
+            color: #343a3b;
+            font:400 1.125rem/1.75rem Domine;
+        }
+        .media-heading{
+            color: #343a3b;
+            font: 700 1.125rem/2.063rem Montserrat;
+            text-transform: uppercase;
+        }
+        .media-object {
+            height: 50px;
+        }
+    }
+}
+#footer {
+    text-align: left;
+    background-color: #262829;
+    .list-footer{
+        border-bottom: 1px solid #323334;
+        padding-bottom: 25px;
+
+        .title-footer {
+            color: #e1e1e1;
+            font: 700 1.25rem/2.063rem Montserrat;
+            text-transform: uppercase;
+        }
+        .text-footer-left {
+            color: #838b8c;
+            font: 400 0.938rem/1.5rem Domine;
+        }
+        .nav-footer{
+            li{
+                .link-nav-footer{
+                    color: #838b8c;
+                    font:400 0.813rem/1.875rem Montserrat;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+    .form-inline-plus{
+        width: 100%;
+        background-color: #323334;
+        border-radius: 30px;
+
+        .form-plus{
+            border: none;
+            padding-left: 20px;
+            color: #5e5e5e;
+            font:400 0.813rem/1.5rem Montserrat;
+            text-transform: uppercase;
+            background-color: transparent;
+            &:focus {
+                box-shadow: none;
+                outline: none;
+            }
+        }
+        .btn-default-plus{
+            background-color: #16d428;
+            color: white;
+            font:400 0.938rem/2.188rem Montserrat;
+            text-transform: uppercase;
+            border-radius: 30px;
+            padding: 5px 15px;
+        }
+    }
+    .text-copyright{
+        display: block;
+        color: #838b8c;
+        font:400 0.938rem/1.5rem Domine;
+        padding: 22px 0;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    html {
+        font-size: 13px;
+    }
+    .section-blog {
+        .section-blog-right {
+            background: url("../images/bg-foto.png") no-repeat;
+            background-position: 15% 30%;
+            min-height: 630px;
+            margin-left: 50%;
+            margin-top: -620px;
+        }
+    }
+    .section-welcome {
+        .carousel-plus{
+            .item-plus{
+                background-position: 40%;
+            }
+        }
+    }
+    .carousel-static-plus {
+        padding: 25% 7% 0;
+        .btn-item-more {
+            padding: 34px 15px;
+        }
+    }
+    .section-about{
+        margin: 65px auto 0;
+        .img-top{
+            width: 70%;
+            margin-left: 35px;
+        }
+        .btn-about{
+            text-align: center;
+            padding-top: 25px;
+        }
+    }
+    .section-projects{
+        margin: 45px auto;
+        .read-more{
+            margin-top: 35px;
+            .btn-projects{
+            }
+        }
+    }
+    .section-clients{
+        padding: 45px 0;
+    }
+    .section-contact {
+        .list-contact {
+            .contact-item {
+                border:1px solid #e1eaec;
+                padding: 35px 5px;
+                color: #343a3b;
+                font:400 1.125rem/1.75rem Domine;
+            }
+
+        }
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    html {
+        font-size: 15px;
+    }
+    .section-welcome {
+        .carousel-plus{
+            .item-plus{
+                background-position: 20%;
+            }
+        }
+    }
+    .carousel-static-plus {
+        padding: 30% 7% 0;
+        .btn-item-more {
+            padding: 32.5px 14px;
+        }
+    }
+    .section-clients {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    .section-blog {
+        .section-blog-right {
+            background: url("../images/bg-foto.png") no-repeat;
+            background-position: 10% 15%;
+            min-height: 700px;
+            margin-left: 50%;
+            margin-top: -670px;
+        }
+    }
+    .section-contact {
+        .list-contact {
+            .icon-call {
+                margin-right: 0;
+                padding: 38px 10px;
+            }
+            .icon-email{
+                margin-top: 10px;
+                padding: 35px 10px;
+                font: 400 0.9rem/1rem Domine;
+            }
+            .icon-career{
+                padding: 36.5px 10px;
+                font: 400 1rem/1rem Domine;
+            }
+        }
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1969px) {
+    html {
+        font-size: 16px;
+    }
+    .section-about {
+        padding-top: 35px;
+    }
+    .section-welcome {
+        .carousel-plus{
+            .item-plus{
+                //background-position: 70%;
+            }
+        }
+    }
+    .section-blog {
+        .section-blog-right {
+            background: url("../images/bg-foto.png") no-repeat;
+            background-position: 10% 15%;
+            min-height: 700px;
+            margin-left: 50%;
+            margin-top: -668px;
+        }
+    }
+    .carousel-static-plus {
+        padding: 30% 7% 0;
+        .btn-item-more {
+            padding: 31.8px 15px;
+        }
+    }
+    .section-about {
+    }
+    .section-contact {
+        .list-contact {
+            .icon-call {
+                margin-right: 0;
+                padding: 35.5px 10px;
+            }
+            .icon-email{
+                margin-top: 10px;
+                padding: 35px 10px;
+                font: 400 0.9rem/1rem Domine;
+            }
+            .icon-career{
+                padding: 36.5px 10px;
+                font: 400 1rem/1rem Domine;
+            }
+        }
+    }
+    .section-blog {
+        .section-blog-left {
+            margin: 0 auto;
+            width: calc(1170px / 2);
+        }
+        .section-blog-right {
+            width: 50%;
+        }
+    }
+}
+
+@media (min-width: 1970px) {
+    html{
+        font-size: 16px;
+    }
+    .section-welcome {
+        .carousel-plus{
+            .item-plus{
+                background-position: 50%;
+            }
+        }
+        .carousel-static-plus {
+            padding: 30% 7% 0;
+            .btn-item-more {
+                padding: 32px 15px;
+            }
+        }
+    }
+    .section-contact-top{
+        .list-contact-top{
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+    }
+    .navbar-plus {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .section-about{
+        margin: 95px auto 0;
+        .btn-about{
+            margin-bottom: 95px;
+            margin-top: 66px;
+            text-align: right;
+            .link-btn-about{
+                padding: 16px 26px;
+            }
+        }
+    }
+    .section-steps{
+        padding-top: 95px;
+        padding-bottom: 93px;
+        .your-service{
+            padding-left: 71px;
+
+        }
+        .your-business{
+            padding-left: 71px;
+        }
+    }
+    .section-projects{
+        margin: 95px auto;
+        .read-more{
+            margin-top: 45px;
+            margin-bottom: 0;
+        }
+    }
+    .section-clients{
+        padding: 95px 0;
+    }
+    .section-blog {
+         padding-top: 70px;
+         .section-blog-right {
+            background: url("../images/bg-foto.png") no-repeat;
+            background-position: 10% 15%;
+            min-height: 810px;
+            margin-left: 50%;
+            margin-top: -738px;
+         }
+     }
+    .section-contact {
+        padding-top: 95px;
+        padding-bottom: 95px;
+        .list-contact {
+            .icon-call {
+                padding: 35.5px 15px;
+            }
+            .icon-email{
+                margin-top: 10px;
+                padding: 35px 35px;
+                font: 400 0.9rem/1rem Domine;
+            }
+            .icon-career{
+                padding: 36.5px 35px;
+                font: 400 1rem/1rem Domine;
+            }
+        }
+    }
+    #footer{
+        padding-top: 95px;
+    }
+}
+
+
+
+
+
+
