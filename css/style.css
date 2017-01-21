@@ -1,0 +1,567 @@
+html {
+  font-size: 12px; }
+
+body li {
+  list-style-type: none; }
+body a {
+  text-decoration: blink; }
+body .row {
+  padding-left: 0; }
+
+.title-plus {
+  font: 2rem/2.063rem Montserrat;
+  text-transform: uppercase;
+  color: #343a3b;
+  font-weight: 700;
+  margin-bottom: 33px; }
+  .title-plus .small-title {
+    color: #898e8f;
+    font-size: 0.876rem;
+    font-weight: 400;
+    display: block; }
+
+#header .section-contact-top {
+  background-color: #262829; }
+  #header .section-contact-top .list-contact-top {
+    text-align: right;
+    color: transparent;
+    font: 400 0.75rem/2.25rem Montserrat;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin-bottom: 0; }
+    #header .section-contact-top .list-contact-top dt, #header .section-contact-top .list-contact-top dd {
+      display: inline-block; }
+    #header .section-contact-top .list-contact-top dt {
+      color: #ffffff;
+      margin-left: 60px; }
+    #header .section-contact-top .list-contact-top dd a {
+      color: #a2a5a6; }
+
+.navbar-plus {
+  margin-top: 20px; }
+  .navbar-plus .brand-plus h1 {
+    margin: 0; }
+  .navbar-plus .btn-collapsed-plus {
+    border: 1px solid #000000;
+    border-radius: 10px; }
+    .navbar-plus .btn-collapsed-plus span {
+      border: 1px solid #55bd77; }
+  .navbar-plus .nav-plus .li-nav-plus {
+    font: 400 0.875rem/1.875rem Montserrat;
+    text-transform: uppercase;
+    color: transparent; }
+    .navbar-plus .nav-plus .li-nav-plus a {
+      color: #4e4e4e; }
+    .navbar-plus .nav-plus .li-nav-plus:hover a {
+      color: #ffac56;
+      background-color: transparent; }
+  .navbar-plus .nav-plus .active a {
+    color: #ffac56; }
+
+.section-welcome {
+  padding-left: 0;
+  padding-right: 0; }
+  .section-welcome .left-arrow-plus {
+    left: 0; }
+  .section-welcome .right-arrow-plus {
+    right: 0; }
+  .section-welcome .left-arrow-plus, .section-welcome .right-arrow-plus {
+    width: 25px; }
+    .section-welcome .left-arrow-plus .glyphicon:before, .section-welcome .right-arrow-plus .glyphicon:before {
+      background-color: #262829;
+      padding: 45px 0; }
+  .section-welcome .carousel-plus .item-plus {
+    overflow: hidden;
+    background: url("../images/image-carusel.png") no-repeat;
+    background-size: cover;
+    background-position: 60%; }
+
+.carousel-static-plus {
+  bottom: 0;
+  padding: 20% 7% 0; }
+  .carousel-static-plus .container {
+    padding-left: 0;
+    padding-right: 0; }
+  .carousel-static-plus .title-welcome-plus {
+    color: white;
+    text-transform: uppercase;
+    font: 300 1.875rem/2.25rem Lato;
+    background-color: #ffac56;
+    margin-bottom: 0;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 35px 10px;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent; }
+    .carousel-static-plus .title-welcome-plus .small-title-welcome {
+      font: 400 0.875rem Montserrat;
+      display: block; }
+  .carousel-static-plus ul {
+    margin-bottom: 0; }
+  .carousel-static-plus .btn-welcome {
+    background: #03b6e7;
+    padding: 30px 15px;
+    border: 1px solid #00a6d3; }
+  .carousel-static-plus .active {
+    background: #00a6d3; }
+  .carousel-static-plus .arrow:before {
+    content: url("../images/arrow.png"); }
+  .carousel-static-plus .linc-welcome {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font: 400 0.875rem/1.875rem Montserrat;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none; }
+  .carousel-static-plus .btn-item-education:before {
+    height: 30px;
+    content: url("../images/icon-education.png");
+    display: block; }
+  .carousel-static-plus .btn-item-business:before {
+    height: 30px;
+    content: url("../images/icon-business.png");
+    display: block; }
+  .carousel-static-plus .btn-item-technology:before {
+    height: 30px;
+    content: url("../images/icon-technology.png");
+    display: block; }
+  .carousel-static-plus .btn-item-real:before {
+    height: 30px;
+    content: url("../images/icon-real-estate.png");
+    display: block; }
+  .carousel-static-plus .btn-item-banking:before {
+    height: 30px;
+    content: url("../images/icon-banking.png");
+    display: block; }
+  .carousel-static-plus .btn-item-more {
+    padding: 35px 15px; }
+    .carousel-static-plus .btn-item-more .btn-green {
+      display: block;
+      background-color: #16d428;
+      padding: 15px 8px;
+      border-radius: 25px;
+      text-align: center; }
+
+.section-about {
+  text-align: right;
+  margin: 15px auto; }
+  .section-about .img-top {
+    margin: -80px auto; }
+  .section-about .img-business {
+    width: 100%;
+    height: auto; }
+  .section-about .btn-about {
+    text-align: center;
+    padding-bottom: 15px; }
+    .section-about .btn-about .link-btn-about {
+      color: white;
+      font: 400 0.813rem/1.875rem Montserrat;
+      text-transform: uppercase;
+      background-color: #16d428;
+      border-radius: 30px;
+      padding: 8px 14px; }
+  .section-about .text-about {
+    color: #838b8c;
+    font: 400 0.938rem/1.75rem Domine;
+    margin-bottom: 16px; }
+
+.section-steps {
+  background: #e7eff1;
+  padding-top: 25px;
+  padding-bottom: 25px; }
+  .section-steps .industry {
+    padding-left: 55px; }
+    .section-steps .industry:before {
+      content: url("../images/icon-choose-industary.png");
+      margin-bottom: 35px;
+      display: block; }
+  .section-steps .your-service {
+    padding-left: 55px; }
+    .section-steps .your-service:before {
+      content: url("../images/icon-choose-service.png");
+      margin-bottom: 35px;
+      display: block; }
+  .section-steps .your-business {
+    padding-left: 55px; }
+    .section-steps .your-business:before {
+      content: url("../images/icon-boost-your-business.png");
+      top: -50px;
+      margin-bottom: 20px;
+      display: block; }
+  .section-steps .text-steps {
+    color: #838b8c;
+    font: 400 0.938rem/1.75rem Domine; }
+  .section-steps .title-steps {
+    color: #343a3b;
+    font: 1.125rem/2.063rem Montserrat;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 25px; }
+    .section-steps .title-steps .green-title-steps {
+      color: #16d428;
+      font: 400 1.25rem/1.875rem Montserrat;
+      text-transform: uppercase;
+      display: block; }
+
+.section-projects {
+  margin: 35px auto; }
+  .section-projects .read-more {
+    margin-top: 10px;
+    margin-bottom: 55px; }
+  .section-projects .btn-projects {
+    color: white;
+    font: 400 0.813rem/1.875rem Montserrat;
+    text-transform: uppercase;
+    background-color: #16d428;
+    padding: 17px 29px;
+    border-radius: 30px; }
+  .section-projects li {
+    padding: 15px;
+    display: block; }
+    .section-projects li img {
+      width: 100%; }
+    .section-projects li .content {
+      position: absolute;
+      color: white;
+      font: 400 0.75rem/2.063rem Montserrat;
+      text-transform: uppercase;
+      top: 15%;
+      left: 10%;
+      border: 2px solid #ffac56;
+      border-radius: 20px;
+      padding: 0 10px; }
+    .section-projects li .glyphicon-footer {
+      position: absolute;
+      bottom: 20px;
+      left: 25px;
+      color: white; }
+      .section-projects li .glyphicon-footer span {
+        z-index: 3000; }
+    .section-projects li:after {
+      position: absolute;
+      bottom: 15px;
+      content: '';
+      border-bottom: 56px solid #03b6e7;
+      border-right: 56px solid transparent; }
+    .section-projects li .hover-project {
+      display: none;
+      position: absolute;
+      background-color: #ffac56;
+      opacity: 0.9;
+      top: 15px;
+      left: 15px;
+      right: 15px;
+      bottom: 15px;
+      text-align: center;
+      z-index: 2000; }
+    .section-projects li:hover .hover-project {
+      display: block; }
+      .section-projects li:hover .hover-project .title-hover {
+        color: white;
+        font: 700 1.125rem/2.063rem Montserrat;
+        text-transform: uppercase; }
+      .section-projects li:hover .hover-project .text-hover {
+        color: #fffdfa;
+        font: 400 0.938rem/1.375rem Domine;
+        margin: 13px 18px 44px 18px; }
+
+.section-clients {
+  background-color: #03b6e7;
+  color: #ddf8ff;
+  padding: 25px 0; }
+  .section-clients .carousel-indicators-clients {
+    width: 15%;
+    margin: 0;
+    padding: 0;
+    right: 15%;
+    left: auto;
+    top: 50%; }
+  .section-clients .title-clients {
+    margin-top: 0;
+    color: #ffffff; }
+    .section-clients .title-clients .small-title {
+      color: #a6ecff; }
+  .section-clients .text-clients {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font: 400 0.938rem/1.75rem Domine;
+    margin-bottom: 47px;
+    margin-top: 57px; }
+    .section-clients .text-clients:before {
+      content: "\201C";
+      font-size: 9rem; }
+    .section-clients .text-clients:after {
+      content: "\201D";
+      font-size: 9rem; }
+  .section-clients .list-clients li {
+    overflow: hidden;
+    padding-top: 47px; }
+    .section-clients .list-clients li .photo-clients {
+      float: left;
+      border-radius: 50%; }
+    .section-clients .list-clients li h4 {
+      font: 400 0.938rem/1.75rem Domine;
+      margin-left: 105px; }
+      .section-clients .list-clients li h4 .title-fff {
+        color: white;
+        font: 700 0.875rem/2.063rem Montserrat;
+        text-transform: uppercase;
+        display: block; }
+
+.section-blog {
+  background: #e7eff1; }
+  .section-blog .section-blog-left {
+    padding-top: 25px; }
+    .section-blog .section-blog-left .small-title {
+      text-transform: uppercase; }
+    .section-blog .section-blog-left article {
+      padding-top: 20px;
+      padding-bottom: 20px; }
+      .section-blog .section-blog-left article .date {
+        color: #343a3b;
+        font: 400 0.938rem/1.75rem Domine; }
+      .section-blog .section-blog-left article .title-article {
+        color: #343a3b;
+        font: 700 1.125rem/2.063rem Montserrat;
+        text-transform: uppercase;
+        margin: 0;
+        line-height: 33px; }
+      .section-blog .section-blog-left article .text-article {
+        color: #838b8c;
+        font: 400 0.938rem/1.75rem Domine; }
+    .section-blog .section-blog-left .btn-right-blog,
+    .section-blog .section-blog-left .btn-left-blog {
+      color: #606668;
+      font: 400 0.75rem/2.063rem Montserrat;
+      text-transform: uppercase;
+      border-radius: 30px; }
+    .section-blog .section-blog-left .btn-right-blog {
+      border: 2px solid #989fa0;
+      padding: 12px 21px; }
+    .section-blog .section-blog-left .btn-left-blog {
+      border: 2px solid #ffac56;
+      padding: 12px 38px; }
+  .section-blog .section-blog-right {
+    min-height: 260px;
+    background: url("../images/bg-foto.png") no-repeat;
+    background-size: 100%; }
+
+.section-contact {
+  padding-top: 25px;
+  padding-bottom: 25px; }
+  .section-contact .list-contact {
+    padding-left: 0; }
+    .section-contact .list-contact li {
+      display: inline-block;
+      margin-bottom: 10px; }
+    .section-contact .list-contact .contact-item {
+      border: 1px solid #e1eaec;
+      padding: 35px 15px;
+      color: #343a3b;
+      font: 400 1.125rem/1.75rem Domine; }
+      .section-contact .list-contact .contact-item a {
+        color: #343a3b; }
+      .section-contact .list-contact .contact-item .icon-email {
+        background: url(../images/icon-email.png) no-repeat;
+        padding: 10px 35px; }
+      .section-contact .list-contact .contact-item .icon-call {
+        background: url(../images/icon-call.png) no-repeat;
+        padding: 10px 40px; }
+      .section-contact .list-contact .contact-item .icon-career {
+        background: url(../images/icon-career.png) no-repeat;
+        padding: 10px 40px; }
+    .section-contact .list-contact .media-heading {
+      color: #343a3b;
+      font: 700 1.125rem/2.063rem Montserrat;
+      text-transform: uppercase; }
+    .section-contact .list-contact .media-object {
+      height: 50px; }
+
+#footer {
+  text-align: left;
+  background-color: #262829; }
+  #footer .list-footer {
+    border-bottom: 1px solid #323334;
+    padding-bottom: 25px; }
+    #footer .list-footer .title-footer {
+      color: #e1e1e1;
+      font: 700 1.25rem/2.063rem Montserrat;
+      text-transform: uppercase; }
+    #footer .list-footer .text-footer-left {
+      color: #838b8c;
+      font: 400 0.938rem/1.5rem Domine; }
+    #footer .list-footer .nav-footer li .link-nav-footer {
+      color: #838b8c;
+      font: 400 0.813rem/1.875rem Montserrat;
+      text-transform: uppercase; }
+  #footer .form-inline-plus {
+    width: 100%;
+    background-color: #323334;
+    border-radius: 30px; }
+    #footer .form-inline-plus .form-plus {
+      border: none;
+      padding: 25px;
+      color: #5e5e5e;
+      font: 400 0.813rem/1.5rem Montserrat;
+      text-transform: uppercase;
+      background-color: transparent; }
+      #footer .form-inline-plus .form-plus:focus {
+        box-shadow: none;
+        outline: none; }
+    #footer .form-inline-plus .btn-default-plus {
+      background-color: #16d428;
+      color: white;
+      font: 400 0.938rem/2.188rem Montserrat;
+      text-transform: uppercase;
+      border-radius: 30px;
+      padding: 5px 15px; }
+  #footer .text-copyright {
+    display: block;
+    color: #838b8c;
+    font: 400 0.938rem/1.5rem Domine;
+    padding: 22px 0; }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  html {
+    font-size: 13px; }
+
+  .section-blog .section-blog-right {
+    background: url("../images/bg-foto.png") no-repeat;
+    background-position: 15% 30%;
+    min-height: 630px;
+    margin-left: 50%;
+    margin-top: -620px; }
+
+  .section-welcome .carousel-plus .item-plus {
+    background-position: 40%; }
+
+  .carousel-static-plus {
+    padding: 25% 7% 0; }
+    .carousel-static-plus .btn-item-more {
+      padding: 34px 15px; }
+
+  .section-about {
+    margin: 65px auto 0; }
+    .section-about .img-top {
+      width: 70%;
+      margin-left: 35px; }
+    .section-about .btn-about {
+      text-align: center;
+      padding-top: 25px; }
+
+  .section-projects {
+    margin: 45px auto; }
+    .section-projects .read-more {
+      margin-top: 35px; }
+
+  .section-clients {
+    padding: 45px 0; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  html {
+    font-size: 15px; }
+
+  .section-welcome .carousel-plus .item-plus {
+    background-position: 20%; }
+
+  .carousel-static-plus {
+    padding: 30% 7% 0; }
+    .carousel-static-plus .btn-item-more {
+      padding: 32.5px 14px; }
+
+  .section-clients {
+    padding-top: 45px;
+    padding-bottom: 45px; }
+
+  .section-blog .section-blog-right {
+    background: url("../images/bg-foto.png") no-repeat;
+    background-position: 10% 15%;
+    min-height: 700px;
+    margin-left: 50%;
+    margin-top: -670px; } }
+@media (min-width: 1200px) and (max-width: 1969px) {
+  html {
+    font-size: 16px; }
+
+  .section-about {
+    padding-top: 35px; }
+
+  .section-blog .section-blog-right {
+    background: url("../images/bg-foto.png") no-repeat;
+    background-position: 10% 15%;
+    min-height: 700px;
+    margin-left: 50%;
+    margin-top: -668px; }
+
+  .carousel-static-plus {
+    padding: 30% 7% 0; }
+    .carousel-static-plus .btn-item-more {
+      padding: 31.8px 15px; }
+
+  .section-blog .section-blog-left {
+    margin: 0 auto;
+    width: calc(1170px / 2); }
+  .section-blog .section-blog-right {
+    width: 50%; } }
+@media (min-width: 1970px) {
+  html {
+    font-size: 16px; }
+
+  .section-welcome .carousel-plus .item-plus {
+    background-position: 50%; }
+  .section-welcome .carousel-static-plus {
+    padding: 30% 7% 0; }
+    .section-welcome .carousel-static-plus .btn-item-more {
+      padding: 32px 15px; }
+
+  .section-contact-top .list-contact-top {
+    padding-top: 15px;
+    padding-bottom: 15px; }
+
+  .navbar-plus {
+    padding-top: 25px;
+    padding-bottom: 25px; }
+
+  .section-about {
+    margin: 95px auto 0; }
+    .section-about .btn-about {
+      margin-bottom: 95px;
+      margin-top: 66px;
+      text-align: right; }
+      .section-about .btn-about .link-btn-about {
+        padding: 16px 26px; }
+
+  .section-steps {
+    padding-top: 95px;
+    padding-bottom: 93px; }
+    .section-steps .your-service {
+      padding-left: 71px; }
+    .section-steps .your-business {
+      padding-left: 71px; }
+
+  .section-projects {
+    margin: 95px auto; }
+    .section-projects .read-more {
+      margin-top: 45px;
+      margin-bottom: 0; }
+
+  .section-clients {
+    padding: 95px 0; }
+
+  .section-blog {
+    padding-top: 70px; }
+    .section-blog .section-blog-right {
+      background: url("../images/bg-foto.png") no-repeat;
+      background-position: 10% 15%;
+      min-height: 810px;
+      margin-left: 50%;
+      margin-top: -738px; }
+
+  #footer {
+    padding-top: 95px; } }
+
+/*# sourceMappingURL=style.css.map */
