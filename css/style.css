@@ -52,22 +52,21 @@ body .row {
     color: transparent; }
     .navbar-plus .nav-plus .li-nav-plus a {
       color: #4e4e4e; }
-    .navbar-plus .nav-plus .li-nav-plus .active {
-      color: #ffac55; }
+    .navbar-plus .nav-plus .li-nav-plus:hover a {
+      color: #ffac56;
+      background-color: transparent; }
+  .navbar-plus .nav-plus .active a {
+    color: #ffac56; }
 
 .section-welcome {
   padding-left: 0;
   padding-right: 0; }
   .section-welcome .left-arrow-plus {
     left: 0; }
-    .section-welcome .left-arrow-plus .glyphicon {
-      left: 10px; }
   .section-welcome .right-arrow-plus {
     right: 0; }
-    .section-welcome .right-arrow-plus .glyphicon {
-      right: 10px; }
   .section-welcome .left-arrow-plus, .section-welcome .right-arrow-plus {
-    width: 5%; }
+    width: 25px; }
     .section-welcome .left-arrow-plus .glyphicon:before, .section-welcome .right-arrow-plus .glyphicon:before {
       background-color: #262829;
       padding: 45px 0; }
@@ -224,6 +223,16 @@ body .row {
     display: block; }
     .section-projects li img {
       width: 100%; }
+    .section-projects li .content {
+      position: absolute;
+      color: white;
+      font: 400 0.75rem/2.063rem Montserrat;
+      text-transform: uppercase;
+      top: 15%;
+      left: 10%;
+      border: 2px solid #ffac56;
+      border-radius: 20px;
+      padding: 0 10px; }
     .section-projects li .glyphicon-footer {
       position: absolute;
       bottom: 20px;
@@ -264,11 +273,12 @@ body .row {
   color: #ddf8ff;
   padding: 25px 0; }
   .section-clients .carousel-indicators-clients {
-    width: 5%;
+    width: 15%;
     margin: 0;
     padding: 0;
-    right: 0;
-    left: auto; }
+    right: 15%;
+    left: auto;
+    top: 50%; }
   .section-clients .title-clients {
     margin-top: 0;
     color: #ffffff; }
@@ -354,6 +364,17 @@ body .row {
       padding: 35px 15px;
       color: #343a3b;
       font: 400 1.125rem/1.75rem Domine; }
+      .section-contact .list-contact .contact-item a {
+        color: #343a3b; }
+      .section-contact .list-contact .contact-item .icon-email {
+        background: url(../images/icon-email.png) no-repeat;
+        padding: 10px 35px; }
+      .section-contact .list-contact .contact-item .icon-call {
+        background: url(../images/icon-call.png) no-repeat;
+        padding: 10px 40px; }
+      .section-contact .list-contact .contact-item .icon-career {
+        background: url(../images/icon-career.png) no-repeat;
+        padding: 10px 40px; }
     .section-contact .list-contact .media-heading {
       color: #343a3b;
       font: 700 1.125rem/2.063rem Montserrat;
@@ -384,7 +405,7 @@ body .row {
     border-radius: 30px; }
     #footer .form-inline-plus .form-plus {
       border: none;
-      padding-left: 20px;
+      padding: 25px;
       color: #5e5e5e;
       font: 400 0.813rem/1.5rem Montserrat;
       text-transform: uppercase;
@@ -439,13 +460,7 @@ body .row {
       margin-top: 35px; }
 
   .section-clients {
-    padding: 45px 0; }
-
-  .section-contact .list-contact .contact-item {
-    border: 1px solid #e1eaec;
-    padding: 35px 5px;
-    color: #343a3b;
-    font: 400 1.125rem/1.75rem Domine; } }
+    padding: 45px 0; } }
 @media (min-width: 992px) and (max-width: 1199px) {
   html {
     font-size: 15px; }
@@ -467,18 +482,7 @@ body .row {
     background-position: 10% 15%;
     min-height: 700px;
     margin-left: 50%;
-    margin-top: -670px; }
-
-  .section-contact .list-contact .icon-call {
-    margin-right: 0;
-    padding: 38px 10px; }
-  .section-contact .list-contact .icon-email {
-    margin-top: 10px;
-    padding: 35px 10px;
-    font: 400 0.9rem/1rem Domine; }
-  .section-contact .list-contact .icon-career {
-    padding: 36.5px 10px;
-    font: 400 1rem/1rem Domine; } }
+    margin-top: -670px; } }
 @media (min-width: 1200px) and (max-width: 1969px) {
   html {
     font-size: 16px; }
@@ -497,17 +501,6 @@ body .row {
     padding: 30% 7% 0; }
     .carousel-static-plus .btn-item-more {
       padding: 31.8px 15px; }
-
-  .section-contact .list-contact .icon-call {
-    margin-right: 0;
-    padding: 35.5px 10px; }
-  .section-contact .list-contact .icon-email {
-    margin-top: 10px;
-    padding: 35px 10px;
-    font: 400 0.9rem/1rem Domine; }
-  .section-contact .list-contact .icon-career {
-    padding: 36.5px 10px;
-    font: 400 1rem/1rem Domine; }
 
   .section-blog .section-blog-left {
     margin: 0 auto;
@@ -567,19 +560,6 @@ body .row {
       min-height: 810px;
       margin-left: 50%;
       margin-top: -738px; }
-
-  .section-contact {
-    padding-top: 95px;
-    padding-bottom: 95px; }
-    .section-contact .list-contact .icon-call {
-      padding: 35.5px 15px; }
-    .section-contact .list-contact .icon-email {
-      margin-top: 10px;
-      padding: 35px 35px;
-      font: 400 0.9rem/1rem Domine; }
-    .section-contact .list-contact .icon-career {
-      padding: 36.5px 35px;
-      font: 400 1rem/1rem Domine; }
 
   #footer {
     padding-top: 95px; } }
