@@ -426,6 +426,10 @@ body .row {
     font: 400 0.938rem/1.5rem Domine;
     padding: 22px 0; }
 
+.section-blog-welcome {
+  background: url("../images/welcome_blog.png") 50% 50% no-repeat;
+  background-size: cover; }
+
 @media (min-width: 768px) and (max-width: 991px) {
   html {
     font-size: 13px; }
