@@ -385,6 +385,8 @@ body .row {
 #footer {
   text-align: left;
   background-color: #262829; }
+  #footer ul {
+    padding-left: 0; }
   #footer .list-footer {
     border-bottom: 1px solid #323334;
     padding-bottom: 25px; }
@@ -405,7 +407,7 @@ body .row {
     border-radius: 30px; }
     #footer .form-inline-plus .form-plus {
       border: none;
-      padding: 25px;
+      padding: 20px;
       color: #5e5e5e;
       font: 400 0.813rem/1.5rem Montserrat;
       text-transform: uppercase;
@@ -425,10 +427,6 @@ body .row {
     color: #838b8c;
     font: 400 0.938rem/1.5rem Domine;
     padding: 22px 0; }
-
-.section-blog-welcome {
-  background: url("../images/welcome_blog.png") 50% 50% no-repeat;
-  background-size: cover; }
 
 @media (min-width: 768px) and (max-width: 991px) {
   html {

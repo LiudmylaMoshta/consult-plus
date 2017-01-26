@@ -524,6 +524,9 @@ body{
 #footer {
     text-align: left;
     background-color: #262829;
+    ul{
+        padding-left: 0;
+    }
     .list-footer{
         border-bottom: 1px solid #323334;
         padding-bottom: 25px;
@@ -554,7 +557,7 @@ body{
 
         .form-plus{
             border: none;
-            padding: 25px;
+            padding: 20px;
             color: #5e5e5e;
             font:400 0.813rem/1.5rem Montserrat;
             text-transform: uppercase;
@@ -583,13 +586,6 @@ body{
 
 
 
-
-//BLOGGGGGGG
-.section-blog-welcome{
-    background: url("../images/welcome_blog.png") 50% 50% no-repeat;
-    background-size: cover;
-
-}
 
 
 
