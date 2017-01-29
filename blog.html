@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+    <title></title><!--пустой тег, выдает ошибку в валидаторе-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Domine" rel="stylesheet">
@@ -62,7 +62,7 @@
 
 <section class="section-blog-welcome">
     <div class="container">
-        <img src="images/welcome-logo.png" alt="" class="img-welcome img-responsive" />
+        <img src="images/welcome-logo.png" alt="" class="img-welcome img-responsive" /> <!--если бы задала и нижний паддинг, можно было бы не указывать высоту секции-->
     </div>
 </section>
 <div class="container blog-post">
@@ -79,7 +79,7 @@
                     <img src="images/blog_post.png" alt="" class="img-responsive"/>
                     <div class="text-img">
                         <span>11-feb-2016</span>
-                        <p>Blog Heading Lorem Ipsum is simply dummy</p>
+                        <p>Blog Heading Lorem Ipsum is simply dummy</p><!--это название статьи дожно быть-->
                     </div>
                 </div>
                 <p class="text-content">
@@ -114,7 +114,7 @@
                             <a href="https://plus.google.com/" class="fa fa-google-plus" aria-hidden="true"></a>
                         </li>
                         <li class="last">
-                            <a href="#" class="fa fa-share-alt" aria-hidden="true"></a>
+                            <a href="#" class="fa fa-share-alt" aria-hidden="true"></a><!--куда должна вести эта ссылка-->
                         </li>
                     </ul>
                 </div>
@@ -146,7 +146,7 @@
                         </li>
                         <li class="col-xs-12  col-sm-4 col-lg-4">
                             <a href="#">
-                                <img src="images/related_post3.png" alt="" class="img-responsive">
+                                <img src="images/related_post3.png" alt="" class="img-responsive"> <!--пустой alt для всех картинок-->
                                 <p class="title-post">
                                     Blog Heading Here
                                     <span class="data-post">
@@ -171,7 +171,7 @@
                         <div class="content-comment">
                             <div class="header-comment">
                                 <h3 class="title-comments">
-                                    visitor name
+                                    visitor name <!--это имя пользователя который оставил коммент, не думаю что это h3-->
                                 </h3>
                                 <div class="btn-prew">
                                     <a href="#" class="btn-post">Reply</a>
@@ -265,9 +265,9 @@
                 <h3 class="title-aside">Featured post</h3>
                 <ul>
                     <li>
-                        <a href="#"><img src="images/aside-post.png" alt="" class="img-responsive"></a>
+                        <a href="#"><img src="images/aside-post.png" alt="" class="img-responsive"></a><!--картинки не на всю ширину блока на моб. девайсах-->
                         <p class="title-post">
-                            Blog Heading Here
+                            Blog Heading Here <!--это название статьи, думаю оно тоже должно быть ссылкой-->
                             <span class="data-post">
                                 <a href="#">1-feb-2016</a>
                             </span>
