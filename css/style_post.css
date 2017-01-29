@@ -43,10 +43,9 @@ html {
 
 .section-blog-welcome {
   background: url("../images/welcome_blog.png") 50% 50% no-repeat #e7eff1;
-  background-size: cover;
-  min-height: 292px; }
+  background-size: cover; }
   .section-blog-welcome .img-welcome {
-    padding-top: 132px; }
+    padding: 132px 0; }
 
 .section-content-blog .text-content {
   padding: 15px 0 0; }
@@ -61,11 +60,12 @@ html {
     font: 400 0.6rem/2.063rem Montserrat;
     background-color: #ffac55;
     padding: 8px 14px; }
-  .section-content-blog .text-img p {
+  .section-content-blog .text-img h2 {
     font: 700 0.7rem/2.063rem Montserrat;
     background-color: #222;
     padding: 7px 16px;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    margin-top: 0; }
 .section-content-blog .list-content li:before {
   content: "\2714";
   color: #ffac55;
@@ -104,6 +104,7 @@ html {
     text-transform: uppercase;
     margin-bottom: 15px; }
   .related-post img {
+    width: 100%;
     margin-top: 15px;
     margin-bottom: 5px; }
 
@@ -189,9 +190,13 @@ html {
 .aside-post .aside-featured .title-post {
   margin-top: 5px;
   margin-bottom: 30px; }
+  .aside-post .aside-featured .title-post a {
+    color: #343a3b; }
   .aside-post .aside-featured .title-post .data-post a {
     color: #ffac55;
     text-decoration: none; }
+.aside-post .aside-featured img {
+  width: 100%; }
 .aside-post .aside-tages .list-aside-tages li {
   display: inline-block;
   padding: 5px; }
@@ -232,7 +237,7 @@ html {
 
   .section-content-blog .text-img span {
     font: 400 0.875rem/2.063rem Montserrat; }
-  .section-content-blog .text-img p {
+  .section-content-blog .text-img h2 {
     font: 700 1.125rem/2.063rem Montserrat; }
 
   .aside-post .aside-search .form-control-blog {
