@@ -119,6 +119,12 @@
             width: 50%;
         }
     }
+    #footer{
+        padding-top: 55px;
+        .nav-navigation{
+            padding-left: 40px;
+        }
+    }
 }
 
 @media (min-width: 1970px) {
@@ -192,6 +198,9 @@
     }
     #footer{
         padding-top: 95px;
+        .nav-navigation{
+            margin-left: 40px;
+        }
     }
 }
 
@@ -309,7 +318,10 @@
     .about_us{
     padding-top: 95px;
     }
-
+    .text-management{
+        padding-top: 20px;
+        padding-bottom: 28px;
+    }
     .section-content-pages{
         .img-year{
             margin: -75px auto -95px auto;
@@ -454,6 +466,10 @@
     .section-management {
         padding-top: 94px;
         padding-bottom: 94px;
+        h4{
+            margin: 0;
+            padding: 0;
+        }
         .title-pages{
             padding-bottom: 54px;
         }

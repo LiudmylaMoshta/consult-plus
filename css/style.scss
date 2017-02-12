@@ -47,10 +47,17 @@ body{
             dd{
                 a{
                     color: #a2a5a6;
+                    text-decoration: none;
                 }
             }
         }
     }
+}
+.navbar-collapse-plus{
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+
 }
 .navbar-plus{
     margin-top: 20px;
@@ -68,6 +75,7 @@ body{
         }
     }
     .nav-plus{
+
         .li-nav-plus{
             font:400 0.875rem/1.875rem Montserrat;
             text-transform: uppercase;
@@ -518,6 +526,9 @@ body{
     }
 }
 #footer {
+    a{
+        text-decoration: none;
+    }
     text-align: left;
     background-color: #262829;
     ul{
@@ -904,9 +915,13 @@ body{
 
 
 //-----------------------------------------BLOG----------------------------------------------------
-.section-content-pages{
-    border-bottom: 1px solid #e2e6e7;
+
+.blog-post{
+    .section-content-pages{
+        border-bottom: 1px solid #e2e6e7;
+    }
 }
+
 .section-interview{
     padding-top: 15px;
     padding-bottom: 25px;
@@ -1074,6 +1089,9 @@ body{
 .section-management{
     padding-top: 30px;
     padding-bottom: 40px;
+    .photo-management{
+        border-radius: 50px;
+    }
     .media-heading{
         color: #343a3b;
         font:700 0.938rem/2.063rem Montserrat;
@@ -1089,7 +1107,6 @@ body{
         border-top: 1px solid #dbe4e4;;
         display: flex;
         flex-direction: row;
-        padding-left: 10px;
         margin-bottom: 15px;
         .facebook,.twitter,.google {
             font: 0.813rem/2.063rem Montserrat;

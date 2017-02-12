@@ -78,7 +78,12 @@
     margin: 0 auto;
     width: calc(1170px / 2); }
   .section-blog .section-blog-right {
-    width: 50%; } }
+    width: 50%; }
+
+  #footer {
+    padding-top: 55px; }
+    #footer .nav-navigation {
+      padding-left: 40px; } }
 @media (min-width: 1970px) {
   html {
     font-size: 16px; }
@@ -134,7 +139,9 @@
       margin-top: -738px; }
 
   #footer {
-    padding-top: 95px; } }
+    padding-top: 95px; }
+    #footer .nav-navigation {
+      margin-left: 40px; } }
 @media (min-width: 768px) {
   html {
     font-size: 13px; }
@@ -203,6 +210,10 @@
 
   .about_us {
     padding-top: 95px; }
+
+  .text-management {
+    padding-top: 20px;
+    padding-bottom: 28px; }
 
   .section-content-pages .img-year {
     margin: -75px auto -95px auto; }
@@ -308,6 +319,9 @@
   .section-management {
     padding-top: 94px;
     padding-bottom: 94px; }
+    .section-management h4 {
+      margin: 0;
+      padding: 0; }
     .section-management .title-pages {
       padding-bottom: 54px; }
     .section-management .text-management {

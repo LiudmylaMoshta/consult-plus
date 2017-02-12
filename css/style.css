@@ -35,7 +35,13 @@ body .row {
       color: #ffffff;
       margin-left: 60px; }
     #header .section-contact-top .list-contact-top dd a {
-      color: #a2a5a6; }
+      color: #a2a5a6;
+      text-decoration: none; }
+
+.navbar-collapse-plus {
+  position: absolute;
+  background-color: #ffffff;
+  width: 100%; }
 
 .navbar-plus {
   margin-top: 20px; }
@@ -385,6 +391,8 @@ body .row {
 #footer {
   text-align: left;
   background-color: #262829; }
+  #footer a {
+    text-decoration: none; }
   #footer ul {
     padding-left: 0; }
   #footer .list-footer {
@@ -658,7 +666,7 @@ body .row {
       width: 100%;
       padding: 7px 0; }
 
-.section-content-pages {
+.blog-post .section-content-pages {
   border-bottom: 1px solid #e2e6e7; }
 
 .section-interview {
@@ -802,6 +810,8 @@ body .row {
 .section-management {
   padding-top: 30px;
   padding-bottom: 40px; }
+  .section-management .photo-management {
+    border-radius: 50px; }
   .section-management .media-heading {
     color: #343a3b;
     font: 700 0.938rem/2.063rem Montserrat;
@@ -815,7 +825,6 @@ body .row {
     border-top: 1px solid #dbe4e4;
     display: flex;
     flex-direction: row;
-    padding-left: 10px;
     margin-bottom: 15px; }
     .section-management .social-text .facebook, .section-management .social-text .twitter, .section-management .social-text .google {
       font: 0.813rem/2.063rem Montserrat;
