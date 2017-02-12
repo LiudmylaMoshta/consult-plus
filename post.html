@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!--internet explorer-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog Post</title>  <!--пустой тег, выдает ошибку в валидаторе-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Domine" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+
+<header id="header">
+    <div class="section-contact-top">
+        <dl class="container list-contact-top">
+            <dt class="email-top">Email :</dt>
+            <dd>
+                <a href="mailto:info@consultplus.com"> info@consultplus.com </a>
+            </dd>
+            <dt class="phone-top">Phone :</dt>
+            <dd>
+                <a href="tel:9156856664555"> +91 5685 6664 555 </a>
+            </dd>
+        </dl>
+    </div>
+    <nav class="navbar  navbar-plus">
+        <div class="container">
+            <div class="navbar-header navbar-header-plus">
+                <button type="button" class="navbar-toggle collapsed btn-collapsed-plus" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class=" brand-plus" >
+                    <h1>
+                        <a href="index.html">
+                            <img src="images/logo.png" class="img-logo img-responsive" alt="logo"/>
+                        </a>
+                    </h1>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right nav-plus">
+                    <li class="li-nav-plus"><a href="index.html">HOME</a></li>
+                    <li class="li-nav-plus"><a href="about.html">about us</a></li>
+                    <li class="li-nav-plus"><a href="#">industry</a></li>
+                    <li class="li-nav-plus"><a href="#">services</a></li>
+                    <li class="li-nav-plus active"><a href="post.html">pages</a></li>
+                    <li class="li-nav-plus"><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<section class="section-blog-welcome">
+    <div class="container">
+        <img src="images/welcome-logo.png" alt="logo" class="img-welcome img-responsive" /> <!--если бы задала и нижний паддинг, можно было бы не указывать высоту секции-->
+    </div>
+</section>
+<div class="container blog-post">
+    <div class="row">
+        <div class="col-xs-12 col-sm-9">
+            <section class="section-content-pages" >
+                <h2 class="title-pages">
+                    <span class="first-small">
+                        Our
+                    </span>
+                    Blog post
+                </h2>
+                <div class="img-blog-post">
+                    <img src="images/blog_post.png" alt="img-welcome" class="img-responsive"/>
+                    <div class="text-img">
+                        <span>11-feb-2016</span>
+                        <h2>Blog Heading Lorem Ipsum is simply dummy</h2><!--это название статьи дожно быть-->
+                    </div>
+                </div>
+                <p class="text-content">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a type specimen book. It has survived
+                    not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                </p>
+                <ul class="list-content">
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    <li>Proin tempus ipsum vitae velit convallis venenatis.</li>
+                    <li>Curabitur vel felis pretium, blandit arcu in, sollicitudin ipsum.</li>
+                    <li>Maecenas tempus metus vel felis volutpat sollicitudin.</li>
+                </ul>
+                <div class="row">
+                    <img src="images/blog_post2.png" class="col-xs-12 col-sm-5" alt="photo"/>
+                    <p class="col-xs-12 col-sm-7 text-content-bottom">
+                        Printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                        ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </p>
+                </div>
+                <div class="text-right">
+                    <ul class="social-groups">
+                        <li>
+                            <a href="https://uk-ua.facebook.com/" class="fa fa-facebook" aria-hidden="true"></a>
+                        </li>
+                        <li>
+                            <a href="http://twitter.com" class="fa fa-twitter" aria-hidden="true"></a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/" class="fa fa-google-plus" aria-hidden="true"></a>
+                        </li>
+                        <li class="last">
+                            <a href="#" class="fa fa-share-alt" aria-hidden="true"></a><!--куда должна вести эта ссылка-->
+                        </li>
+                    </ul>
+                </div>
+
+                <section class="related-post">
+                    <h3 class="title-related">Related Post</h3>
+                    <ul class="row">
+                        <li class="col-xs-12 col-sm-4 col-lg-4">
+                            <a href="#">
+                                <img src="images/related_post.png" alt="photo-post" class="img-responsive">
+                            </a>
+                            <p class="title-post">
+                                Blog Heading Here
+                                <a href="#" class="data-post">
+                                11-feb-2016
+                                </a>
+                            </p>
+                        </li>
+                        <li class="col-xs-12 col-sm-4 col-lg-4">
+                            <a href="#">
+                                <img src="images/related_post2.png" alt="photo-post" class="img-responsive">
+                            </a>
+                            <p class="title-post">
+                                Blog Heading Here
+                                <a href="#" class="data-post">
+                                11-feb-2016
+                                </a>
+                            </p>
+                        </li>
+                        <li class="col-xs-12  col-sm-4 col-lg-4">
+                            <a href="#">
+                                <img src="images/related_post3.png" alt="photo-post" class="img-responsive"> <!--пустой alt для всех картинок-->
+                            </a>
+                            <p class="title-post">
+                                Blog Heading Here
+                                <a href="#" class="data-post">
+                                11-feb-2016
+                                </a>
+                            </p>
+                        </li>
+                    </ul>
+                </section>
+            </section>
+            <section class="section-comments">
+                <h2 class="title-pages">
+                    <span class="first-small">
+                        visitors
+                    </span>
+                    Comments
+                </h2>
+                <ul>
+                    <li class="comment">
+                        <img src="images/comments-face1.png" alt="photo-face" class="img-circle img-responsive comments-face">
+                        <div class="content-comment">
+                            <div class="header-comment">
+                                <h3 class="title-comments">
+                                    visitor name <!--это имя пользователя который оставил коммент, не думаю что это h3-->
+                                </h3>
+                                <div class="btn-prew">
+                                    <a href="#" class="btn-post">Reply</a>
+                                </div>
+                            </div>
+                            <p class="comment-text">
+                                Printing and typesetting industry. Lorem Ipsum has been the industry's
+                                standard dummy text ever since the 1500s, when an unknown printer took a galley of typescrambled.
+                            </p>
+                        </div>
+                        <ul>
+                            <li class="comment comment-in">
+                                <img src="images/comments-face2.png" alt="photo-face" class="img-circle img-responsive comments-face">
+                                <div class="content-comment">
+                                    <div class="header-comment">
+                                        <h3 class="title-comments">
+                                            visitor name
+                                        </h3>
+                                        <div class="btn-prew">
+                                            <a href="#" class="btn-post">Reply</a>
+                                        </div>
+                                    </div>
+                                    <p class="comment-text">
+                                        It has survived not only five centuries, but also the leap into electronic
+                                        typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="comment">
+                        <img src="images/comments-face3.png" alt="photo-face" class="img-circle img-responsive comments-face">
+                        <div class="content-comment">
+                            <div class="header-comment">
+                                <h3 class="title-comments">
+                                    visitor name
+                                </h3>
+                                <div class="btn-prew">
+                                    <a href="#" class="btn-post">Reply</a>
+                                </div>
+                            </div>
+                            <p class="comment-text">
+                                Consectetur, from a Lorem Ipsum passage, and going through the cites of the word
+                                in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="comment">
+                        <img src="images/comments-face4.png" alt="photo-face" class="img-circle img-responsive comments-face">
+                        <div class="content-comment">
+                            <div class="header-comment">
+                                <h3 class="title-comments">
+                                    visitor name
+                                </h3>
+                                <div class="btn-prew">
+                                    <a href="#" class="btn-post">Reply</a>
+                                </div>
+                            </div>
+                            <p class="comment-text">
+                                Embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
+                                Internet tend to repeat predefined chunks as necessary.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <aside class="col-xs-12 col-sm-3 aside-post">
+            <div class="aside-search">
+                <h4>Search</h4>
+                <div class="input-group">
+                    <input type="text" class="form-control form-control-blog" placeholder="Search">
+                    <div class="input-group input-group-btn ">
+                        <button class="btn btn-default btn-blog " type="button">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="aside-categories">
+                <h3 class="title-aside">Categories</h3>
+                <ul class="list-aside-categories">
+                    <li><a href="#">Phasellus mollis orci vitae</a></li>
+                    <li><a href="#">Nunc vitae felis vitae vestibulum</a></li>
+                    <li><a href="#">Morbi et quam vel mauris</a></li>
+                    <li><a href="#">In nec ante sed magna feugiat</a></li>
+                    <li><a href="#">Vivamus ac urna id nisl aliquet</a></li>
+                </ul>
+            </div>
+            <div class="aside-featured">
+                <h3 class="title-aside">Featured post</h3>
+                <ul>
+                    <li>
+                        <a href="#"><img src="images/aside-post.png" alt="img-post" class="img-responsive"></a><!--картинки не на всю ширину блока на моб. девайсах-->
+                        <h2 class="title-post">
+                            <a href="#">
+                                Blog Heading Here <!--это название статьи, думаю оно тоже должно быть ссылкой-->
+                            </a>
+                            <span class="data-post">
+                                <a href="#">1-feb-2016</a>
+                            </span>
+                        </h2>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/aside-post2.png" alt="img-post" class="img-responsive"></a>
+                        <h2 class="title-post">
+                            <a href="#">Blog Heading Here</a>
+                            <span class="data-post">
+                                <a href="#">1-feb-2016</a>
+                            </span>
+                        </h2>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/aside-post3.png" alt="img-post" class="img-responsive"></a>
+                        <h2 class="title-post">
+                            <a href="#">Blog Heading Here</a>
+                            <span class="data-post">
+                                <a href="#">1-feb-2016</a>
+                            </span>
+                        </h2>
+                    </li>
+                </ul>
+            </div>
+            <div class="aside-tages">
+                <h3 class="title-aside">tages</h3>
+                <ul class="list-aside-tages">
+                    <li class="btn-prew"><a class="btn-post" href="">Education</a></li>
+                    <li class="btn-prew"><a class="btn-post" href="">Consulting</a></li>
+                    <li class="btn-prew"><a class="btn-post" href="">Telicommunication</a></li>
+                    <li class="btn-prew"><a class="btn-post" href="">law</a></li>
+                </ul>
+            </div>
+            <div class="aside-form">
+                <h3 class="title-newsletter"><span class="small-title">subscribe</span>
+                    Newsletter</h3>
+                <form class="form-group form-group-aside">
+                    <ul>
+                        <li class="form-group">
+                            <label></label>
+                            <input type="text" class="form-control"  placeholder="Name">
+                        </li>
+                        <li class="form-group">
+                            <label></label>
+                            <input type="email" class="form-control" placeholder="Email Address">
+                        </li>
+                        <li class="btn-prew">
+                            <button type="submit" class="btn btn-default btn-post">Submit now</button>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </aside>
+    </div>
+</div>
+<section class="section-leave-message">
+    <div class="container" >
+        <div class="col-xs-12 col-sm-9">
+            <h2 class="title-pages">
+                    <span class="first-small">
+                        leave
+                    </span>
+                message
+            </h2>
+            <form>
+                <ul class="row">
+                    <li class="form-group col-xs-12 col-sm-6">
+                        <label></label>
+                        <input type="text" class="form-control input-blog" id="exampleInputName2" placeholder="Name">
+                    </li>
+                    <li class="form-group col-xs-12 col-sm-6">
+                        <label></label>
+                        <input type="email" class="form-control input-blog" id="exampleInputEmail2" placeholder="Email">
+                    </li>
+                    <li class="col-xs-12">
+                        <label></label>
+                        <textarea class="form-control input-blog" rows="3" placeholder="Comment"></textarea>
+                    </li>
+                    <li class="btn-prew form-group">
+                        <button type="submit" class="btn btn-default btn-post">Submit comment</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+
+</section>
+<footer id="footer">
+    <div class="container">
+        <div class="row list-footer">
+            <div class="col-xs-12 col-sm-5">
+                <h3 class="title-footer">News letter</h3>
+                <p class="text-footer-left">Enter your email address to subscribe our notification
+                    of our new post &#38; features by email.
+                </p>
+                <form action="//vk.us14.list-manage.com/subscribe/post?u=04b1bc4222eb5bbecab4a45d4&amp;id=e7310fa778" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div class="input-group form-inline-plus">
+                        <input type="email" value="" name="EMAIL" id="mce-EMAIL" required class="form-control form-plus" placeholder="Email Address" />
+                        <div class="input-group-btn">
+                            <button class="btn btn-default-plus" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">Subscribe</button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+            <div class="col-xs-12 col-sm-7">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4 nav-navigation">
+                        <h3 class="title-footer">navigation</h3>
+                        <ul class="nav-footer">
+                            <li><a class="link-nav-footer" href="#">Home</a></li>
+                            <li><a class="link-nav-footer" href="#">about us</a></li>
+                            <li><a class="link-nav-footer" href="#">industry</a></li>
+                            <li><a class="link-nav-footer" href="#">services</a></li>
+                            <li><a class="link-nav-footer" href="#">pages</a></li>
+                            <li><a class="link-nav-footer" href="#">Contact us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 nav-industary">
+                        <h3 class="title-footer">Industary</h3>
+                        <ul class="nav-footer">
+                            <li><a class="link-nav-footer" href="#">Education</a></li>
+                            <li><a class="link-nav-footer" href="#">business</a></li>
+                            <li><a class="link-nav-footer" href="#">realestate</a></li>
+                            <li><a class="link-nav-footer" href="#">technology</a></li>
+                            <li><a class="link-nav-footer" href="#">banking</a></li>
+                            <li><a class="link-nav-footer" href="#">telicommunication</a></li>
+                            <li><a class="link-nav-footer" href="#">much more</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 nav-follow">
+                        <h3 class="title-footer">Follow us</h3>
+                        <ul class="nav-footer">
+                            <li><a class="link-nav-footer" href="#">Facebook</a></li>
+                            <li><a class="link-nav-footer" href="#">twitter</a></li>
+                            <li><a class="link-nav-footer" href="#">instagram</a></li>
+                            <li><a class="link-nav-footer" href="#">linkedin</a></li>
+                            <li><a class="link-nav-footer" href="#">google +</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <span class="text-copyright">Copyright &#169; 2016 Consultplus theme.</span>
+        </div>
+    </div>
+</footer>
+
+
+<!--jquery-->
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<!--js/bootstrap-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!--my JS-->
+<script>
+
+</script>
+
+</body>
+</html>
