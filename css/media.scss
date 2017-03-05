@@ -1,4 +1,4 @@
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px)  {
     html {
         font-size: 13px;
     }
@@ -45,6 +45,36 @@
     }
     .section-clients{
         padding: 45px 0;
+    }
+    //------------------------------Team----------------------------------------------------
+
+    .name-personality-hover{
+        margin: 0;
+        margin-top: 67%;
+    }
+    .photo-personality{
+        width: 100%;
+    }
+    //------------------------------FAQ'S----------------------------------------------------
+
+    .section-form-answer{
+        margin-right: 0;
+        margin-left: 0;
+
+        }
+    .form-faqs {
+        padding: 0;
+    }
+    .section-faqs {
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+    .form-faqs{
+        .btn-prew{
+            .btn-post{
+                width: 100%;
+            }
+        }
     }
 }
 
