@@ -34,6 +34,56 @@
   .section-clients {
     padding: 45px 0; }
 
+  .blog-post {
+    padding-top: 25px; }
+
+  .section-content-blog .text-img span {
+    font: 400 0.875rem/2.063rem Montserrat; }
+  .section-content-blog .text-img h2 {
+    font: 700 1.125rem/2.063rem Montserrat; }
+
+  .aside-post .aside-search .form-control-blog {
+    padding: 19px; }
+
+  .section-content-pages .img-year {
+    width: 100%;
+    margin-top: -30px;
+    margin-bottom: -85px; }
+
+  .section-core {
+    background: #e7eff1;
+    padding-top: 55px;
+    padding-bottom: 50px;
+    text-align: left; }
+    .section-core .title-core {
+      text-align: left; }
+    .section-core .client_satisfaction:before,
+    .section-core .fully_support:before,
+    .section-core .play:before {
+      text-align: left; }
+
+  .section-management {
+    padding-top: 45px;
+    padding-bottom: 55px; }
+    .section-management .social-text {
+      margin-bottom: 25px; }
+
+  .section-round-table .text-img span {
+    font: 400 0.875rem/2.063rem Montserrat; }
+  .section-round-table .text-img h2 {
+    font: 700 1.125rem/2.063rem Montserrat; }
+
+  .section-text-color {
+    padding-top: 25px; }
+    .section-text-color .text-color {
+      padding-top: 25px; }
+    .section-text-color:before {
+      top: 62%;
+      left: 3%; }
+    .section-text-color:after {
+      left: 90%;
+      top: 65%; }
+
   .name-personality-hover {
     margin: 0;
     margin-top: 67%; }
@@ -53,7 +103,20 @@
     padding-bottom: 55px; }
 
   .form-faqs .btn-prew .btn-post {
-    width: 100%; } }
+    width: 100%; }
+
+  .section-supporting {
+    padding-top: 45px;
+    padding-bottom: 35px; }
+    .section-supporting .li-industry {
+      padding: 20px 35px;
+      margin-bottom: 5px; }
+
+  .section-featured-projects {
+    padding-top: 45px;
+    padding-bottom: 55px; }
+    .section-featured-projects .projects-list {
+      margin-bottom: 45px; } }
 @media (min-width: 992px) and (max-width: 1199px) {
   html {
     font-size: 15px; }
@@ -76,7 +139,7 @@
     min-height: 700px;
     margin-left: 50%;
     margin-top: -670px; } }
-@media (min-width: 1200px) and (max-width: 1969px) {
+@media (min-width: 1200px) {
   html {
     font-size: 16px; }
 
@@ -104,7 +167,92 @@
   #footer {
     padding-top: 55px; }
     #footer .nav-navigation {
-      padding-left: 40px; } }
+      padding-left: 40px; }
+
+  .aside-post .aside-search .form-control-blog {
+    padding: 21px; }
+
+  .blog-post {
+    padding-top: 55px; }
+
+  .section-comments .comment .comment-in {
+    padding-left: 85px; }
+
+  .about_us {
+    padding-top: 95px; }
+
+  .text-management {
+    padding-top: 20px;
+    padding-bottom: 28px; }
+
+  .section-content-pages .img-year {
+    margin: -75px auto -95px auto; }
+
+  .section-vision {
+    padding-top: 25px;
+    padding-bottom: 40px; }
+    .section-vision .title-pages {
+      margin-bottom: 35px; }
+    .section-vision .text-vision {
+      padding-top: 27px;
+      padding-bottom: 21px; }
+    .section-vision .btn-prew a {
+      padding: 8px 38px; }
+
+  .section-text-color {
+    padding-top: 45px; }
+    .section-text-color .text-color {
+      padding: 35px 40px;
+      margin-bottom: 48px; }
+    .section-text-color:before {
+      top: 62%;
+      left: 3%; }
+    .section-text-color:after {
+      top: 64%;
+      left: 92%; }
+
+  .section-interview {
+    padding-top: 35px;
+    padding-bottom: 35px; }
+
+  .section-round-table {
+    padding-top: 35px;
+    padding-bottom: 35px; }
+
+  .section-supporting {
+    padding-top: 80px;
+    padding-bottom: 80px; }
+    .section-supporting .li-industry {
+      margin-bottom: 25px; }
+
+  .list-industry {
+    padding: 20px 0;
+    padding-left: 35px; }
+
+  .title-industry {
+    margin-top: 0; }
+
+  .img-industry {
+    border: 1px solid #d0dcdf;
+    border-radius: 70px;
+    width: 142px;
+    height: 142px;
+    float: left;
+    margin-right: 25px; }
+    .img-industry .glyphicon {
+      text-align: center;
+      padding: 45px 47px;
+      font-size: 42px;
+      color: #03b6e7; }
+
+  .btn-prew-industry {
+    padding-bottom: 0; }
+    .btn-prew-industry .btn-post-content {
+      padding: 8px 37px; }
+
+  .section-featured-projects {
+    padding-top: 94px;
+    padding-bottom: 94px; } }
 @media (min-width: 1970px) {
   html {
     font-size: 16px; }
@@ -161,117 +309,6 @@
 
   #footer {
     padding-top: 95px; }
-    #footer .nav-navigation {
-      margin-left: 40px; } }
-@media (min-width: 768px) {
-  html {
-    font-size: 13px; }
-
-  .blog-post {
-    padding-top: 25px; }
-
-  .section-content-blog .text-img span {
-    font: 400 0.875rem/2.063rem Montserrat; }
-  .section-content-blog .text-img h2 {
-    font: 700 1.125rem/2.063rem Montserrat; }
-
-  .aside-post .aside-search .form-control-blog {
-    padding: 19px; }
-
-  .section-content-pages .img-year {
-    width: 100%;
-    margin-top: -30px;
-    margin-bottom: -85px; }
-
-  .section-core {
-    background: #e7eff1;
-    padding-top: 55px;
-    padding-bottom: 50px;
-    text-align: left; }
-    .section-core .title-core {
-      text-align: left; }
-    .section-core .client_satisfaction:before,
-    .section-core .fully_support:before,
-    .section-core .play:before {
-      text-align: left; }
-
-  .section-management {
-    padding-top: 45px;
-    padding-bottom: 55px; }
-    .section-management .social-text {
-      margin-bottom: 25px; }
-
-  .section-round-table .text-img span {
-    font: 400 0.875rem/2.063rem Montserrat; }
-  .section-round-table .text-img h2 {
-    font: 700 1.125rem/2.063rem Montserrat; }
-
-  .section-text-color {
-    padding-top: 25px; }
-    .section-text-color .text-color {
-      padding-top: 25px; }
-    .section-text-color:before {
-      top: 62%;
-      left: 3%; }
-    .section-text-color:after {
-      left: 90%;
-      top: 65%; } }
-@media (min-width: 1200px) {
-  html {
-    font-size: 15px; }
-
-  .aside-post .aside-search .form-control-blog {
-    padding: 21px; }
-
-  .blog-post {
-    padding-top: 55px; }
-
-  .section-comments .comment .comment-in {
-    padding-left: 85px; }
-
-  .about_us {
-    padding-top: 95px; }
-
-  .text-management {
-    padding-top: 20px;
-    padding-bottom: 28px; }
-
-  .section-content-pages .img-year {
-    margin: -75px auto -95px auto; }
-
-  .section-vision {
-    padding-top: 25px;
-    padding-bottom: 40px; }
-    .section-vision .title-pages {
-      margin-bottom: 35px; }
-    .section-vision .text-vision {
-      padding-top: 27px;
-      padding-bottom: 21px; }
-    .section-vision .btn-prew a {
-      padding: 8px 38px; }
-
-  .section-text-color {
-    padding-top: 45px; }
-    .section-text-color .text-color {
-      padding: 35px 40px;
-      margin-bottom: 48px; }
-    .section-text-color:before {
-      top: 62%;
-      left: 3%; }
-    .section-text-color:after {
-      top: 64%;
-      left: 92%; }
-
-  .section-interview {
-    padding-top: 35px;
-    padding-bottom: 35px; }
-
-  .section-round-table {
-    padding-top: 35px;
-    padding-bottom: 35px; } }
-@media (min-width: 1970px) {
-  html {
-    font-size: 16px; }
 
   .blog-post {
     padding-top: 95px; }
@@ -379,6 +416,32 @@
 
   .navigating {
     padding-top: 43px;
-    padding-bottom: 97px; } }
+    padding-bottom: 97px; }
+
+  .section-supporting {
+    padding-top: 94px;
+    padding-bottom: 94px; }
+    .section-supporting .li-industry {
+      margin-bottom: 95px;
+      padding: 20px 0;
+      padding-left: 35px; }
+
+  .list-industry {
+    padding-top: 30px;
+    margin-bottom: 0;
+    padding-bottom: 0; }
+
+  .title-industry {
+    margin-top: 0; }
+
+  .img-industry {
+    margin-right: 44px; }
+
+  .btn-prew-industry .btn-post-content {
+    padding: 8px 37px; }
+
+  .section-featured-projects {
+    padding-top: 94px;
+    padding-bottom: 94px; } }
 
 /*# sourceMappingURL=media.css.map */

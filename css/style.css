@@ -42,7 +42,6 @@ body .row {
       text-decoration: none; }
 
 .navbar-collapse-plus {
-  position: absolute;
   background-color: #ffffff;
   width: 100%; }
 
@@ -475,7 +474,7 @@ body .row {
     font: 0.813rem/1.875rem Montserrat;
     text-transform: uppercase;
     background-color: #16d428;
-    border-radius: 20px;
+    border-radius: 30px;
     padding: 0 10px;
     text-decoration: none; }
 
@@ -990,5 +989,92 @@ body .row {
   .section-faqs .show-answer {
     display: none;
     padding-bottom: 25px; }
+
+.list-industry {
+  padding-top: 17px; }
+
+.li-industry {
+  display: block;
+  margin-bottom: 25px; }
+
+.content-industry {
+  overflow: hidden; }
+
+.title-industry {
+  color: #343a3b;
+  font: 700 1.125rem/2.063rem Montserrat;
+  text-transform: uppercase;
+  margin-top: 0; }
+
+.text-industry {
+  color: #838b8c;
+  font: 400 0.937rem/1.75rem Domine; }
+
+.img-industry {
+  border: 1px solid #d0dcdf;
+  border-radius: 70px;
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-right: 20px; }
+  .img-industry .glyphicon {
+    text-align: center;
+    padding: 30px;
+    font-size: 35px;
+    color: #03b6e7; }
+
+li:hover .img-active {
+  box-shadow: 0 0 65px rgba(210, 222, 225, 0.44);
+  -webkit-box-shadow: 0 0 65px rgba(210, 222, 225, 0.44); }
+li:hover .glyphicon {
+  color: #ffac56; }
+
+.btn-prew-industry {
+  padding-bottom: 45px; }
+  .btn-prew-industry .btn-post-content {
+    padding: 8px 15px; }
+
+.section-featured-projects {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  background: #e7eff1;
+  overflow: hidden; }
+  .section-featured-projects .img-industry-footer_ {
+    width: 100%;
+    height: auto; }
+
+.projects-list {
+  overflow: hidden;
+  margin: 15px -15px; }
+  .projects-list li {
+    padding: 10px 15px;
+    width: 50%;
+    float: left;
+    display: block;
+    position: relative; }
+    .projects-list li:after {
+      position: absolute;
+      bottom: 10px;
+      content: '';
+      border-bottom: 56px solid #03b6e7;
+      border-right: 56px solid transparent; }
+  .projects-list .content {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: white;
+    font: 400 0.75rem/2.063rem Montserrat;
+    text-transform: uppercase;
+    border: 2px solid #ffac56;
+    border-radius: 20px;
+    padding: 0 10px; }
+  .projects-list .glyphicon-footer {
+    position: absolute;
+    bottom: 20px;
+    left: 25px;
+    color: white; }
+    .projects-list .glyphicon-footer span {
+      background: transparent;
+      z-index: 3000; }
 
 /*# sourceMappingURL=style.css.map */
