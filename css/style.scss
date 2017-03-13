@@ -1,0 +1,1410 @@
+ul, ol {
+    -webkit-padding-start: 0;
+}
+
+html {
+    font-size: 12px;
+}
+body{
+    li{
+        list-style-type: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    .row{
+        padding-left: 0;
+    }
+}
+.title-plus{
+    font:2rem/2.063rem Montserrat;
+    text-transform: uppercase;
+    color: #343a3b;
+    font-weight: 700;
+    margin-bottom: 33px;
+    .small-title{
+        color: #898e8f;
+        font-size: 0.876rem;
+        font-weight: 400;
+        display: block;
+    }
+}
+#header{
+    .section-contact-top{
+        background-color: #262829;
+        .list-contact-top{
+            text-align: right;
+            color: transparent;
+            font: 400 0.75rem/2.25rem Montserrat;
+            line-height: 36px;
+            text-transform: uppercase;
+            margin-bottom: 0;
+            dt,dd {
+                display: inline-block;
+            }
+            dt{
+                color: #ffffff;
+                margin-left: 60px;
+
+            }
+            dd{
+                a{
+                    color: #a2a5a6;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+.navbar-collapse-plus{
+    background-color: #ffffff;
+    width: 100%;
+
+}
+.navbar-plus{
+    margin-top: 20px;
+
+    .brand-plus{
+        h1{
+            margin: 0;
+        }
+    }
+    .btn-collapsed-plus {
+        border: 1px solid #000000;
+        border-radius: 10px;
+        span{
+            border: 1px solid #55bd77;
+        }
+    }
+    .nav-plus{
+
+        .li-nav-plus{
+            font:400 0.875rem/1.875rem Montserrat;
+            text-transform: uppercase;
+            color: transparent;
+            a{
+                color: #4e4e4e;
+            }
+            &:hover{
+                a{
+                    color:#ffac56;
+                    background-color: transparent;
+                }
+            }
+        }
+        .active{
+            a{
+                color:#ffac56;
+            }
+        }
+    }
+}
+.section-welcome{
+    padding-left: 0;
+    padding-right: 0;
+    .left-arrow-plus{
+        left: 0;
+    }
+    .right-arrow-plus{
+        right: 0;
+    }
+    .left-arrow-plus, .right-arrow-plus {
+        width: 25px;
+        .glyphicon {
+            &:before {
+                background-color: #262829;
+                padding: 45px 0;
+            }
+        }
+    }
+    .carousel-plus{
+        .item-plus{
+            overflow: hidden;
+            background: url("../images/image-carusel.png") no-repeat;
+            background-size: cover;
+            background-position: 60%;
+        }
+    }
+}
+.carousel-static-plus {
+    bottom: 0;
+    padding: 20% 7% 0;
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .title-welcome-plus{
+        color: white;
+        text-transform: uppercase;
+        font:300 1.875rem/2.25rem Lato;
+        background-color: #ffac56;
+        margin-bottom: 0;
+        margin-right: -15px;
+        margin-left: -15px;
+        padding: 35px 10px;
+        border-left: 1px solid transparent;
+        border-right: 1px solid transparent;
+        .small-title-welcome{
+            font:400 0.875rem Montserrat;
+            display: block;
+        }
+    }
+    ul {
+        margin-bottom: 0;
+    }
+    .btn-welcome{
+        background: #03b6e7;
+        padding: 30px 15px;
+        border: 1px solid #00a6d3;
+    }
+    .active {
+        background: #00a6d3;
+    }
+    .arrow {
+        &:before {
+            content: url('../images/arrow.png');
+        }
+    }
+    .linc-welcome{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        font: 400 0.875rem/1.875rem Montserrat;
+        text-transform: uppercase;
+        text-align: center;
+        text-decoration: none;
+
+    }
+
+    .btn-item-education{
+        &:before {
+            height: 30px;
+            content: url("../images/icon-education.png");
+            display: block;
+        }
+    }
+    .btn-item-business{
+        &:before {
+            height: 30px;
+            content: url("../images/icon-business.png");
+            display: block;
+        }
+    }
+    .btn-item-technology{
+        &:before {
+            height: 30px;
+            content: url("../images/icon-technology.png");
+            display: block;
+        }
+    }
+    .btn-item-real{
+        &:before {
+            height: 30px;
+            content: url("../images/icon-real-estate.png");
+            display: block;
+        }
+    }
+    .btn-item-banking{
+        &:before {
+            height: 30px;
+            content: url("../images/icon-banking.png");
+            display: block;
+        }
+    }
+    .btn-item-more {
+        padding: 35px 15px;
+        .btn-green {
+            display: block;
+            background-color: #16d428;
+            padding: 15px 8px;
+            border-radius: 25px;
+            text-align: center;
+        }
+    }
+}
+.section-about{
+    text-align: right;
+    margin: 15px auto;
+    .img-top{
+        margin: -80px auto;
+    }
+    .img-business {
+        width: 100%;
+        height: auto;
+    }
+    .btn-about{
+        text-align: center;
+        padding-bottom: 15px;
+        .link-btn-about{
+            color: white;
+            font:400 0.813rem/1.875rem Montserrat;
+            text-transform: uppercase;
+            background-color: #16d428;
+            border-radius: 30px;
+            padding: 8px 14px;
+        }
+    }
+
+    .text-about{
+        color: #838b8c;
+        font:400 0.938rem/1.75rem Domine;
+        margin-bottom: 16px;
+    }
+}
+.section-steps{
+    background: #e7eff1;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    .industry{
+        padding-left: 55px;
+         &:before{
+             content: url("../images/icon-choose-industary.png");
+             margin-bottom: 35px;
+             display: block;
+         }
+    }
+    .your-service{
+        padding-left: 55px;
+        &:before{
+            content: url("../images/icon-choose-service.png");
+            margin-bottom: 35px;
+            display: block;
+        }
+    }
+    .your-business{
+        padding-left: 55px;
+        &:before{
+            content: url("../images/icon-boost-your-business.png");
+           top: -50px;
+            margin-bottom: 20px;
+            display: block;
+        }
+    }
+    .text-steps{
+        color: #838b8c;
+        font:400 0.938rem/1.75rem Domine;
+    }
+    .title-steps{
+        color: #343a3b;
+        font:1.125rem/2.063rem Montserrat;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+        .green-title-steps{
+            color: #16d428;
+            font:400 1.25rem/1.875rem Montserrat;
+            text-transform: uppercase;
+            display: block;
+        }
+    }
+}
+.section-projects{
+    margin: 35px auto;
+    .read-more {
+        margin-top: 10px;
+        margin-bottom: 55px;
+    }
+    .btn-projects{
+        color: white;
+        font:400 0.813rem/1.875rem Montserrat;
+        text-transform: uppercase;
+        background-color: #16d428;
+        padding: 17px 29px;
+        border-radius: 30px;
+
+    }
+    li{
+
+        padding: 15px;
+        display: block;
+        img {
+            width: 100%;
+        }
+        .content{
+          position: absolute;
+          color: white;
+          font:400 0.75rem/2.063rem Montserrat;
+          text-transform: uppercase;
+          top:15%;
+          left: 10%;
+          border: 2px solid #ffac56;
+          border-radius: 20px;
+          padding:0 10px;
+        }
+        .glyphicon-footer {
+            position: absolute;
+            bottom: 20px;
+            left: 25px;
+
+            color: white;
+            span {
+                z-index: 3000;
+            }
+        }
+        &:after{
+            position: absolute;
+            bottom: 15px;
+            content: '';
+            border-bottom: 56px solid #03b6e7;
+            border-right: 56px solid transparent;
+        }
+        .hover-project{
+            display: none;
+            position: absolute;
+            background-color: #ffac56;
+            opacity: 0.9;
+            top:15px;
+            left: 15px;
+            right: 15px;
+            bottom: 15px;
+            text-align: center;
+            z-index: 2000;
+        }
+        &:hover{
+            .hover-project{
+                display: block;
+                .title-hover{
+                    color: white;
+                    font:700 1.125rem/2.063rem Montserrat;
+                    text-transform: uppercase;
+                }
+                .text-hover{
+                    color: #fffdfa;
+                    font: 400 0.938rem/1.375rem Domine;
+                    margin: 13px 18px 44px 18px;
+                }
+            }
+        }
+    }
+}
+.section-clients{
+    background-color: #03b6e7;
+    color: #ddf8ff;
+    padding: 25px 0;
+    .carousel-indicators-clients{
+        width: 15%;
+        margin: 0;
+        padding: 0;
+        right: 15%;
+        left: auto;
+        top:50%;
+
+    }
+    .title-clients{
+        margin-top: 0;
+        color: #ffffff;
+        .small-title{
+            color: #a6ecff;
+        }
+    }
+    .text-clients {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font: 400 0.938rem/1.75rem Domine;
+        margin-bottom: 47px;
+        margin-top: 57px;
+        &:before{
+            content: "\201C";
+            font-size: 9rem;
+        }
+        &:after{
+            content: "\201D";
+            font-size: 9rem;
+
+        }
+    }
+    .list-clients{
+        li{
+            overflow: hidden;
+            padding-top: 47px;
+            .photo-clients{
+                float: left;
+                border-radius: 50%;
+            }
+            h4{
+                font:400 0.938rem/1.75rem Domine;
+                margin-left: 105px;
+                .title-fff{
+                    color: white;
+                    font:700 0.875rem/2.063rem Montserrat;
+                    text-transform: uppercase;
+                    display: block;
+                }
+            }
+        }
+    }
+}
+.section-blog{
+    background: #e7eff1;
+    .section-blog-left{
+        padding-top: 25px;
+        .small-title {
+            text-transform: uppercase;
+        }
+        article{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            .date{
+                color: #343a3b;
+                font:400 0.938rem/1.75rem Domine;
+            }
+            .title-article{
+                color: #343a3b;
+                font:700 1.125rem/2.063rem Montserrat;
+                text-transform: uppercase;
+                margin: 0;
+                line-height: 33px;
+            }
+            .text-article{
+                color: #838b8c;
+                font:400 0.938rem/1.75rem Domine;
+            }
+        }
+        .btn-right-blog,
+        .btn-left-blog{
+            color: #606668;
+            font:400 0.75rem/2.063rem Montserrat;
+            text-transform: uppercase;
+            border-radius: 30px;
+        }
+        .btn-right-blog{
+            border: 2px solid #989fa0;
+            padding: 12px 21px;
+        }
+        .btn-left-blog{
+            border: 2px solid #ffac56;
+            padding: 12px 38px;
+        }
+    }
+    .section-blog-right{
+        min-height: 260px;
+        background: url("../images/bg-foto.png") no-repeat;
+        background-size: 100%;
+    }
+
+}
+.section-contact{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    .list-contact{
+        padding-left: 0;
+        li {
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+        .contact-item {
+            border:1px solid #e1eaec;
+            padding: 35px 15px;
+            color: #343a3b;
+            font:400 1.125rem/1.75rem Domine;
+            a{
+                color: #343a3b;
+            }
+            .icon-email  {
+               background: url(../images/icon-email.png)no-repeat;
+               padding: 10px 35px;
+            }
+            .icon-call{
+                background: url(../images/icon-call.png)no-repeat;
+                padding: 10px 40px;
+            }
+            .icon-career{
+              background: url(../images/icon-career.png)no-repeat;
+              padding: 10px 40px;
+            }
+        }
+        .media-heading{
+            color: #343a3b;
+            font: 700 1.125rem/2.063rem Montserrat;
+            text-transform: uppercase;
+        }
+        .media-object {
+            height: 50px;
+        }
+    }
+}
+#footer {
+    a{
+        text-decoration: none;
+    }
+    text-align: left;
+    background-color: #262829;
+    ul{
+        padding-left: 0;
+    }
+    .list-footer{
+        border-bottom: 1px solid #323334;
+        padding-bottom: 25px;
+
+        .title-footer {
+            color: #e1e1e1;
+            font: 700 1.25rem/2.063rem Montserrat;
+            text-transform: uppercase;
+        }
+        .text-footer-left {
+            color: #838b8c;
+            font: 400 0.938rem/1.5rem Domine;
+        }
+        .nav-footer{
+            li{
+                .link-nav-footer{
+                    color: #838b8c;
+                    font:400 0.813rem/1.875rem Montserrat;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+    .form-inline-plus{
+        width: 100%;
+        background-color: #323334;
+        border-radius: 30px;
+
+        .form-plus{
+            border: none;
+            padding: 20px;
+            color: #5e5e5e;
+            font:400 0.813rem/1.5rem Montserrat;
+            text-transform: uppercase;
+            background-color: transparent;
+            &:focus {
+                box-shadow: none;
+                outline: none;
+            }
+        }
+        .btn-default-plus{
+            background-color: #16d428;
+            color: white;
+            font:400 0.938rem/2.188rem Montserrat;
+            text-transform: uppercase;
+            border-radius: 30px;
+            padding: 5px 15px;
+        }
+    }
+    .text-copyright{
+        display: block;
+        color: #838b8c;
+        font:400 0.938rem/1.5rem Domine;
+        padding: 22px 0;
+    }
+}
+
+
+
+
+//-----------------------------------------BLOG_POST----------------------------------------------------
+
+
+.blog-post{
+    padding-top: 15px;
+    color: #838b8c;
+    font:400 0.938rem/1.75rem Domine;
+    text-decoration: none;
+    ul{
+        padding-left: 0;
+    }
+}
+.title-pages{
+    font:700 2rem/2.063rem Montserrat;
+    text-transform: uppercase;
+    color: #343a3b;
+    margin-top: 0;
+    .first-small{
+        color: #898e8f;
+        font-size: 0.875rem;
+        display: block;
+    }
+}
+.title-post{
+    font-family: Montserrat,sans-serif;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #343a3b;
+    font-size: 0.875rem;
+    .data-post{
+        color: #ffac55;
+        font-size: 0.813rem;
+        display: block;
+    }
+}
+.btn-prew{
+    text-align: center;
+    .btn-post{
+        color: white;
+        font:0.813rem/1.875rem Montserrat;
+        text-transform: uppercase;
+        background-color: #16d428;
+        border-radius: 30px;
+        padding: 0 10px;
+        text-decoration: none;
+    }
+}
+
+.section-blog-welcome{
+    background: url("../images/welcome_blog.png") 50% 50% no-repeat #e7eff1;
+    background-size: cover;
+    .img-welcome{
+        padding: 132px 0;
+    }
+}
+.section-content-pages{
+    .text-content{
+        padding:15px 0 0;
+    }
+    .img-blog-post {
+        position: relative;
+    }
+    .text-img{
+        position: absolute;
+        bottom: 0;
+        text-transform: uppercase;
+        color: #ffffff;
+        span{
+            font:400 0.6rem/2.063rem Montserrat;
+            background-color: #ffac55;
+            padding: 8px 14px;
+        }
+        h2{
+            font:700 0.7rem/2.063rem Montserrat;
+            background-color: #222;
+            padding: 7px 16px;
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+    }
+    .list-content{
+        li:before{
+            content:"\2714";
+            color: #ffac55;
+            line-height: 36px;
+            padding-right: 10px;
+            margin-left: 25px;
+        }
+    }
+    .social-groups{
+        margin-bottom: 20px;
+        margin-top: 15px;
+        border: 1px solid #d3dcde;
+        border-radius: 20px;
+        display: inline-block;
+        li{
+            display: inline-block;
+            margin-left: 12px;
+            a{
+                color: #838b8c;
+                text-decoration: none;
+            }
+        }
+        .last{
+            border-radius: 50px;
+            background-color: #ffac55;
+            a{
+                color: #ffffff;
+                padding: 13px;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.related-post{
+    border-bottom:1px solid #e2e6e7;
+    border-top: 1px solid #e2e6e7;
+    padding: 20px 0 25px;
+    a{
+        text-decoration: none;
+    }
+    .title-related{
+        color: #343a3b;
+        font:700 1.125rem/2.063rem Montserrat;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+    img{
+        width: 100%;
+        margin-top:15px ;
+        margin-bottom: 5px;
+    }
+}
+
+
+
+.section-comments{
+    padding: 25px 0;
+    .comment {
+        margin-top: 25px;
+        .comments-face{
+            float: left;
+        }
+        .comment-in{
+            padding-left: 45px;
+        }
+        .content-comment{
+            overflow: hidden;
+
+            .header-comment, .comment-text {
+                padding-left: 20px;
+            }
+            .header-comment {
+                margin-bottom: 10px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                .btn-post{
+                    padding: 2px 20px;
+                }
+            }
+            .title-comments {
+                text-transform: uppercase;
+                margin: 0;
+                color: #343a3b;
+                font:400 0.875rem/1.313rem Montserrat;
+            }
+        }
+    }
+}
+
+
+.section-leave-message{
+    background: #e7eff1;
+    padding: 35px 0;
+    form{
+        color: #343a3b;
+        font:400 0.75rem/1.875rem Montserrat;
+        text-transform: uppercase;
+        margin-top: 34px;
+        .input-blog{
+            border: none;
+            background: transparent;
+            box-shadow: none;
+            border-bottom: 1px solid #cddbde;
+            border-radius: 0;
+        }
+        textarea{
+            margin-bottom: 30px;
+        }
+        .btn-prew{
+            text-align: left;
+            padding-left: 15px;
+            .btn-post{
+                padding: 5px 27px;
+            }
+        }
+    }
+}
+//-----------------------------------------ASIDE----------------------------------------------------
+.aside-post{
+    .title-aside{
+        color: #343a3b;
+        font:700 1.125rem/2.063rem Montserrat;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .aside-search{
+        .btn-blog,
+        .form-control-blog{
+            border-radius: 0;
+            border: 1px solid #d2dbdd;
+        }
+        .form-control-blog{
+            border-right: none;
+            box-shadow: none;
+            padding: 18px;
+        }
+        .btn-blog{
+            border-left: none;
+            i{
+                color: #4c4e4f;
+                font-size: 1rem;
+                line-height: 2rem;
+                text-transform: uppercase;
+            }
+        }
+    }
+    .aside-categories{
+        .list-aside-categories{
+            li:before{
+                content: "\bb";
+                color: #ffac55;
+                padding-right: 10px;
+            }
+            li{
+                font-size: 0.938rem;
+                line-height: 2.25rem;
+                a{
+                    color: #838b8c;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .aside-featured{
+        .title-post{
+            margin-top: 5px;
+            margin-bottom: 30px;
+            a{
+                color: #343a3b;
+            }
+            .data-post{
+                a{
+                    color: #ffac55;
+                    text-decoration: none;
+                }
+            }
+        }
+        img{
+            width: 100%;
+        }
+    }
+    .aside-tages{
+        .list-aside-tages{
+            li{
+                display: inline-block;
+                padding: 5px;
+                a{
+                    padding: 7px 10px;
+                }
+            }
+        }
+    }
+    .aside-form{
+        margin-top: 35px;
+        margin-bottom: 35px;
+        border: 1px solid #d2dbdd;
+        .title-newsletter{
+            text-align: center;
+            color: #343a3b;
+            font:700 1.125rem Montserrat;
+            text-transform: uppercase;
+            margin-bottom: 18px;
+            .small-title{
+                font-size: 0.875rem;
+                display: block;
+                font-weight: 400;
+            }
+        }
+        .form-group-aside{
+            li{
+                margin: 5px 20px;
+                label{
+                    display: inline;
+                }
+            }
+            input{
+                border-radius: 0;
+                color: #a8b1b2;
+                font-size: 0.875rem;
+                line-height: 1.75rem;
+
+            }
+            .btn-prew{
+                margin-top: 10px;
+                .btn-post{
+                    width: 100%;
+                    padding: 7px 0;
+                }
+            }
+        }
+    }
+}
+
+
+//-----------------------------------------BLOG----------------------------------------------------
+
+.blog-post{
+    .section-content-pages{
+        border-bottom: 1px solid #e2e6e7;
+    }
+}
+
+.section-interview{
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+.section-audio-blog{
+    border-bottom: 1px solid #e2e6e7;
+    audio{
+        width: 100%;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    .btn-prew{
+        margin-top: 30px;
+        margin-bottom: 35px;
+    }
+}
+.section-text-color{
+    padding-top: 15px;
+    padding-bottom: 27px;
+    border-bottom: 1px solid #e2e6e7;
+    .text-color{
+        background-color: #03b6e7;
+        color: white;
+        padding: 5px 20px;
+        margin-bottom: 30px;
+    }
+    &:before{
+        content: "\201c";
+        position: absolute;
+        color: white;
+        font:400 6.25rem/1.75rem Montserrat;
+        text-transform: uppercase;
+        top: 61.5%;
+        left: 4%;
+    }
+    &:after{
+        content: "\201d";
+        position: absolute;
+        color: white;
+        font:400 6.25rem/1.75rem Montserrat;
+        text-transform: uppercase;
+        top: 67%;
+        left: 85%;
+    }
+}
+
+.footer-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-prew-content{
+    .btn-post-content{
+        padding: 12px 21px;
+    }
+}
+
+.social{
+    display: inline-block;
+    a{
+        text-decoration: none;
+        color: #5f5f5f;
+        border: 1px solid #d2dbdd;
+        border-radius: 50px;
+        padding: 13px;
+
+    }
+}
+.section-round-table{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.text-right{
+    overflow: hidden;
+    color: #222;
+    font:400 0.813rem/1.75rem Montserrat;
+    text-transform: uppercase;
+}
+.navigating{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.arrow-next{
+    border: 1px solid ;
+    border-radius: 50px;
+    background-color: #16d428;
+    padding: 0 5px;
+    color: #ffffff;
+}
+.arrow-prev{
+    border: 1px solid ;
+    border-radius: 50px;
+    background-color: #ffac55;;
+    padding: 0 5px;
+    color: #ffffff;
+}
+.next,.prev{
+    color: #222;
+    font:400 0.875rem/1.75rem Montserrat;
+    text-transform: uppercase;
+}
+
+//-----------------------------------------ABOUT US----------------------------------------------------
+.about_us{
+    padding-top: 30px;
+    color: #838b8c;
+    font:400 0.938rem/1.75rem Domine;
+    text-decoration: none;
+    ul{
+        padding-left: 0;
+    }
+}
+.section-content-pages{
+    .img-year{
+        height: auto;
+        margin: 0 auto -95px auto;
+    }
+}
+.section-core{
+    background: #e7eff1;
+    padding-top: 95px;
+    padding-bottom: 50px;
+    .title-core{
+        color: #343a3b;
+        font:700 1.125rem/1.27rem Montserrat;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .client_satisfaction:before{
+        content: url("../images/bg_about1.png");
+        display: block;
+        text-align: center;
+        padding-top: 25px;
+
+    }
+    .fully_support:before{
+        content: url("../images/bg-about2.png");
+        display: block;
+        text-align: center;
+        padding-top: 25px;
+    }
+    .play:before{
+        content: url("../images/bg-about3.png");
+        display: block;
+        text-align: center;
+        padding-top: 25px;
+    }
+}
+.section-vision{
+    padding-top: 15px;
+    padding-bottom: 50px;
+    border-bottom:1px solid #dbe4e4;
+    .text-vision{
+        margin-top: 10px;
+    }
+    .title-pages{
+        margin-bottom: 15px;
+        margin-top: 30px;
+    }
+    .btn-prew-content{
+        margin-top: 25px;
+    }
+}
+.section-management{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    .photo-management{
+        border-radius: 50px;
+    }
+    .media-heading{
+        color: #343a3b;
+        font:700 0.938rem/2.063rem Montserrat;
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
+    .profession{
+        color: #898e8f;
+        font:400 0.875rem/2.063rem Montserrat;
+        text-transform: uppercase;
+    }
+}
+.social-text{
+    border-top: 1px solid #dbe4e4;;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    padding-left: 0;
+    .facebook,.twitter,.google {
+        font: 0.813rem/2.063rem Montserrat;
+        height: 33px;
+        text-transform: uppercase;
+    }
+    .facebook{
+        a{
+            color: #3b5998;
+            margin-right: 7px;
+            text-decoration: none;
+        }
+    }
+    .twitter{
+        a{
+            color: #50abf1;
+            margin-right: 7px;
+            text-decoration: none;
+        }
+    }
+    .google{
+        a{
+            color: #dc4b3f;
+            text-decoration: none;
+        }
+    }
+}
+
+
+//-----------------------------------------TEAM----------------------------------------------------
+.leadership{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.frame{
+    background-color: white;
+    border: 1px solid #dee8eb;
+   .content{
+       padding: 50px 49px 36px 40px;
+
+   }
+}
+.name-personality{
+    margin-top: 0;
+    color: #343a3b;
+    font:700 1.125rem/2.063rem Montserrat;
+    text-transform: uppercase;
+
+}
+.position{
+    color: #898e8f;
+    font:400 0.875rem/2.063rem Montserrat;
+    text-transform: uppercase;
+}
+.text-management{
+    color: #838b8c;
+    font:400 0.937rem/1.75rem Domine;
+}
+.section-team{
+    background: #e7eff1;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    .team-personality{
+        margin-top: 30px;
+    }
+}
+.activ-hover:hover{
+    .hover-team{
+    display: block;
+    }
+}
+.hover-team{
+    display:none;
+    background: #fcba75;
+    opacity: 0.9;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.social-text-hover {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 15px;
+
+    .facebook, .twitter, .google {
+        font:400 0.813rem/2.063rem Montserrat;
+        height: 33px;
+        text-transform: uppercase;
+        a {
+            color: #000000;
+            margin-right: 7px;
+            text-decoration: none;
+        }
+    }
+}
+.name-personality-hover{
+    margin: 0;
+    margin-top: 67%;
+    color: white;
+    font:700 0.938rem/2.063rem Montserrat;
+    text-transform: uppercase;
+    text-align: center;
+}
+.position-hover{
+    color: white;
+    font:400 0.875rem/2.063rem Montserrat;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+}
+//------------------------------FAQ'S----------------------------------------------------
+.title-page{
+    color: #1c1c1c;
+    font:300 2.25rem/1.875rem Lato;
+    text-transform: uppercase;
+    padding:132px  70px;
+    z-index: 10;
+
+}
+.section-questions{
+    .list-questions{
+        padding: 10px;
+    }
+}
+.section-form-answer{
+    background: #04b5e7;
+    height:400px ;
+    margin-right: 10px;
+    margin-left: 10px;
+    .title-answer{
+        padding: 15px;
+        color: #ffffff;
+    }
+}
+.form-faqs{
+    padding: 25px;
+    /* Webkit */
+    ::-webkit-input-placeholder { color: #ffffff; }
+
+    /* Firefox 4-18 */
+    :-moz-placeholder { color: #ffffff; }
+
+    /* Firefox 19+ */
+    ::-moz-placeholder { color: #ffffff; }
+
+    /* IE10+ */
+    :-ms-input-placeholder { color: #ffffff; }
+
+    input,textarea{
+        border: none;
+        box-shadow: none;
+        background: transparent;
+        color: #ffffff;
+        text-transform: uppercase;
+        border-bottom: 1px solid #a6ecff;
+        border-radius: 0;
+    }
+    .btn-prew{
+        margin-top: 20px;
+        border: transparent;
+        .btn-post{
+            width: 50%;
+            padding: 7px 0;
+        }
+    }
+}
+
+.section-faqs{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    .question{
+        color: #343a3b;
+        font:700 0.8rem/1.563rem Montserrat;
+        text-transform: uppercase;
+        border-bottom: 1px solid #dfe7e9;
+        padding-bottom: 25px;
+        .number{
+            background: #feab54;
+            border-radius: 50%;
+            padding: 2px 7px;
+            margin-right: 15px;
+        }
+    }
+    .show-answer{
+        display: none;
+        padding-bottom: 25px;
+    }
+}
+//-----------------------------------------INDUSTRY----------------------------------------------------
+.list-industry{
+    padding-top: 17px;
+}
+.li-industry{
+    display: block;
+    margin-bottom: 25px;
+
+}
+.content-industry{
+    overflow: hidden;
+}
+.title-industry{
+    color: #343a3b;
+    font:700 1.125rem/2.063rem Montserrat;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+.text-industry{
+    color: #838b8c;
+    font:400 0.937rem/1.75rem Domine;
+}
+.img-industry{
+    border: 1px solid #d0dcdf;
+    border-radius: 70px;
+    width: 100px;
+    height: 100px;
+    float:left ;
+    margin-right:20px;
+        .glyphicon{
+                text-align: center;
+                padding: 30px;
+                font-size: 35px;
+                color: #03b6e7;;
+        }
+    }
+li:hover{
+    .img-active{
+        box-shadow: 0 0 65px rgba(210, 222, 225, 0.44);
+        -webkit-box-shadow: 0 0 65px rgba(210, 222, 225, 0.44);;
+    }
+    .glyphicon{
+        color: #ffac56;
+    }
+}
+.btn-prew-industry{
+    padding-bottom: 45px;
+   .btn-post-content{
+        padding: 8px 15px;
+    }
+}
+.section-featured-projects{
+    padding-top: 35px;
+    padding-bottom:35px;
+    background: #e7eff1;
+    overflow: hidden;
+    .img-industry-footer_{
+        width: 100%;
+        height: auto;
+    }
+}
+.projects-list {
+    overflow: hidden;
+    margin: 15px -15px;
+    li {
+        padding: 10px 15px;
+        width: 50%;
+        float: left;
+        display: block;
+        position: relative;
+        &:after {
+            position: absolute;
+            bottom: 10px;
+            content: '';
+            border-bottom: 56px solid #03b6e7;
+            border-right: 56px solid transparent;
+        }
+    }
+    .content {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: white;
+        font: 400 0.75rem/2.063rem Montserrat;
+        text-transform: uppercase;
+        border: 2px solid #ffac56;
+        border-radius: 20px;
+        padding: 0 10px;
+    }
+    .glyphicon-footer {
+        position: absolute;
+        bottom: 20px;
+        left: 25px;
+
+        color: white;
+        span {
+            background: transparent;
+            z-index: 3000;
+        }
+    }
+}
